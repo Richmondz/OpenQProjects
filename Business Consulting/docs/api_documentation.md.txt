@@ -1,0 +1,52 @@
+# API Documentation: AI Business Consultant
+
+This document describes the API endpoints for the AI Business Consultant service.
+
+## AI Query Endpoint
+
+* **Endpoint:** `/api/ask`
+* **Method:** `POST`
+* **Description:** Sends a user's prompt and service context to the AI for a consultation response. The response is streamed back.
+* **Request Body (JSON):**
+    ```json
+    {
+        "prompt": "string (User's question or statement)",
+        "service_context": "string (e.g., 'market_strategy', 'startup_advisory', 'operational_efficiency', 'digital_transformation')"
+    }
+    ```
+* **Success Response (Streaming - `text/event-stream`):**
+    The server streams back data in Server-Sent Event (SSE) format. Each message is prefixed with `data: `.
+    * **Delta Chunks:**
+        ```
+        data: {"delta": "The AI's response text chunk..."}
+
+        data: {"delta": "Another piece of the response..."}
+        ```
+    * **Completion Event (Optional):**
+        ```
+        data: {"event": "done"}
+        ```
+    * **Error within Stream:**
+        ```
+        data: {"error": "Error message during stream..."}
+        ```
+* **Non-Streamed Success Response (from Cache):**
+    If the response is served from the cache, it will be a standard JSON response (not streamed):
+    ```json
+    {
+        "response": "The full cached AI answer.",
+        "source": "cache"
+    }
+    ```
+    * **HTTP Status Code:** `200 OK`
+* **Error Responses (Standard JSON for pre-stream errors):**
+    * **400 Bad Request:** If the prompt is missing or invalid.
+        ```json
+        {"error": "No prompt provided"}
+        ```json
+        {"error": "Prompt cannot be empty"}
+        ```
+    * **500 Internal Server Error:** If there's an issue on the server (e.g., OpenAI client not initialized, unexpected error).
+        ```json
+        {"error": "Descriptive error message from the server"}
+        ```

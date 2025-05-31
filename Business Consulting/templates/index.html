@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ project_name | default('Business Consultation') }}</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+    <style>
+        :root {
+            --font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            
+            /* Light Mode (Default) */
+            --primary-color-light: #0A4E8D; 
+            --secondary-color-light: #4A5568; 
+            --accent-color-light: #C0A062; 
+            --bg-color-light: #F9FAFB; 
+            --surface-color-light: #FFFFFF; 
+            --text-color-light: #1F2937; 
+            --border-color-light: #D1D5DB;
+            --ai-message-bg-light: #E5E7EB;
+            --user-message-bg-light: var(--primary-color-light);
+            --user-message-text-light: #FFFFFF;
+            --button-text-color-light: #FFFFFF;
+            --button-secondary-bg-light: #E5E7EB;
+            --button-secondary-text-light: #374151;
+            --card-shadow-light: rgba(0, 0, 0, 0.05);
+            --scrollbar-thumb-light: #A0AEC0;
+            --scrollbar-track-light: #EDF2F7;
+
+            /* Dark Mode */
+            --primary-color-dark: #3B82F6; 
+            --secondary-color-dark: #9CA3AF; 
+            --accent-color-dark: #FCD34D; 
+            --bg-color-dark: #111827; 
+            --surface-color-dark: #1F2937; 
+            --text-color-dark: #D1D5DB; 
+            --border-color-dark: #374151;
+            --ai-message-bg-dark: #374151; 
+            --user-message-bg-dark: var(--primary-color-dark);
+            --user-message-text-dark: #FFFFFF; 
+            --button-text-color-dark: #FFFFFF; 
+            --button-secondary-bg-dark: #374151;
+            --button-secondary-text-dark: #D1D5DB;
+            --card-shadow-dark: rgba(0, 0, 0, 0.2);
+            --scrollbar-thumb-dark: #718096;
+            --scrollbar-track-dark: #2D3748;
+        }
+
+        body {
+            font-family: var(--font-family); margin: 0; display: flex; flex-direction: column;
+            min-height: 100vh; background-color: var(--bg-color); color: var(--text-color);
+            line-height: 1.7; font-size: 16px; transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        body.light-mode {
+            --primary-color: var(--primary-color-light); --secondary-color: var(--secondary-color-light);
+            --accent-color: var(--accent-color-light); --bg-color: var(--bg-color-light);
+            --surface-color: var(--surface-color-light); --text-color: var(--text-color-light);
+            --border-color: var(--border-color-light); --ai-message-bg: var(--ai-message-bg-light);
+            --user-message-bg: var(--user-message-bg-light); --user-message-text: var(--user-message-text-light);
+            --button-text-color: var(--button-text-color-light); --button-secondary-bg: var(--button-secondary-bg-light);
+            --button-secondary-text: var(--button-secondary-text-light); --card-shadow: var(--card-shadow-light);
+            --scrollbar-thumb: var(--scrollbar-thumb-light); --scrollbar-track: var(--scrollbar-track-light);
+        }
+        body.dark-mode {
+            --primary-color: var(--primary-color-dark); --secondary-color: var(--secondary-color-dark);
+            --accent-color: var(--accent-color-dark); --bg-color: var(--bg-color-dark);
+            --surface-color: var(--surface-color-dark); --text-color: var(--text-color-dark);
+            --border-color: var(--border-color-dark); --ai-message-bg: var(--ai-message-bg-dark);
+            --user-message-bg: var(--user-message-bg-dark); --user-message-text: var(--user-message-text-dark);
+            --button-text-color: var(--button-text-color-dark); --button-secondary-bg: var(--button-secondary-bg-dark);
+            --button-secondary-text: var(--button-secondary-text-dark); --card-shadow: var(--card-shadow-dark);
+            --scrollbar-thumb: var(--scrollbar-thumb-dark); --scrollbar-track: var(--scrollbar-track-dark);
+        }
+        .container { width: 100%; max-width: 1100px; margin: 0 auto; padding: 0 20px; box-sizing: border-box; }
+        header { padding: 25px 0; background-color: var(--surface-color); border-bottom: 1px solid var(--border-color); box-shadow: 0 2px 5px var(--card-shadow); }
+        .header-content { display: flex; justify-content: space-between; align-items: center; }
+        header h1 { margin: 0; font-size: 1.8em; font-weight: 700; color: var(--primary-color); }
+        #theme-toggle-button { background-color: var(--button-secondary-bg); color: var(--button-secondary-text); border: 1px solid var(--border-color); padding: 8px 15px; border-radius: 20px; cursor: pointer; font-size: 0.9em; transition: background-color 0.2s, color 0.2s; }
+        #theme-toggle-button:hover { opacity: 0.8; }
+        .hero-section { text-align: center; padding: 60px 20px; background-color: var(--surface-color); border-bottom: 1px solid var(--border-color); }
+        .hero-section h2 { font-size: 2.5em; color: var(--text-color); margin-bottom: 15px; font-weight: 700; }
+        .hero-section p { font-size: 1.1em; color: var(--secondary-color); max-width: 700px; margin: 0 auto 30px auto; }
+        
+        .threed-model-showcase { padding: 40px 20px; text-align: center; }
+        .threed-model-showcase h3 { font-size: 1.8em; color: var(--text-color); margin-bottom: 20px; font-weight: 600; }
+        #threed-container { 
+            width: 100%; max-width: 450px; height: 350px; margin: 0 auto; 
+            background-image: url("/static/assets/images/business.jpg"); 
+            background-size: cover; background-position: center; background-repeat: no-repeat;
+            border-radius: 8px; border: 1px solid var(--border-color); position: relative; 
+        }
+        #threed-container p { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: var(--secondary-color); background-color: rgba(255,255,255,0.7); padding: 5px; border-radius: 3px;}
+
+        .services-section { padding: 50px 0; }
+        .services-section h3 { text-align: center; font-size: 2em; margin-bottom: 40px; color: var(--text-color); font-weight: 600; }
+        .service-cards-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .service-card { background-color: var(--surface-color); border: 1px solid var(--border-color); border-radius: 12px; padding: 25px; box-shadow: 0 4px 8px var(--card-shadow); transition: transform 0.2s ease, box-shadow 0.2s ease; cursor: pointer; display: flex; flex-direction: column; }
+        .service-card:hover { transform: translateY(-5px); box-shadow: 0 6px 12px var(--card-shadow); }
+        .service-card h4 { font-size: 1.4em; color: var(--primary-color); margin-top: 0; margin-bottom: 10px; }
+        .service-card p { font-size: 0.95em; color: var(--secondary-color); margin-bottom: 20px; flex-grow: 1; }
+        .service-card .consult-button { display: inline-block; align-self: flex-start; background-color: var(--primary-color); color: var(--button-text-color); padding: 10px 20px; border-radius: 20px; text-decoration: none; font-weight: 500; transition: background-color 0.2s ease; }
+        .service-card .consult-button:hover { background-color: color-mix(in srgb, var(--primary-color) 85%, black); }
+        .ai-chat-section { padding: 40px 0; background-color: var(--surface-color); margin-top: 30px; border-radius: 12px; box-shadow: 0 4px 12px var(--card-shadow); }
+        .ai-chat-section h3 { text-align: center; font-size: 1.8em; margin-bottom:10px; color: var(--text-color); font-weight: 600; }
+        .ai-chat-section .service-context-display { text-align:center; margin-bottom: 20px; color: var(--secondary-color); font-style: italic; }
+        #chat-container { height: 500px; display: flex; flex-direction: column; border: 1px solid var(--border-color); border-radius: 12px; overflow: hidden; background-color: var(--surface-color); margin: 0 auto; max-width: 760px; }
+        #chat-history { flex-grow: 1; padding: 20px; overflow-y: auto; border-bottom: 1px solid var(--border-color); display: flex; flex-direction: column; gap: 15px; }
+        .message { padding: 10px 15px; border-radius: 18px; max-width: 78%; word-wrap: break-word; box-shadow: 0 1px 2px rgba(0,0,0,0.04); font-size: 0.95em; }
+        .message p { margin: 0; white-space: pre-wrap; } 
+        .message p em { font-style: italic; color: var(--secondary-color); }
+        .user-message { background-color: var(--user-message-bg); color: var(--user-message-text); margin-left: auto; border-bottom-right-radius: 6px; }
+        .ai-message { background-color: var(--ai-message-bg); color: var(--text-color); margin-right: auto; border-bottom-left-radius: 6px; }
+        #input-area { display: flex; align-items: center; padding: 12px 15px; border-top: 1px solid var(--border-color); background-color: var(--surface-color); }
+        #promptInput { flex-grow: 1; padding: 8px 15px; margin-right: 10px; border: 1px solid var(--border-color); background-color: var(--bg-color); color: var(--text-color); border-radius: 20px; resize: none; min-height: 40px; line-height: 1.5; font-size: 0.95em; box-sizing: border-box; outline: none; transition: border-color 0.2s ease, box-shadow 0.2s ease; }
+        #promptInput:focus { border-color: var(--primary-color); box-shadow: 0 0 0 2.5px color-mix(in srgb, var(--primary-color) 20%, transparent); }
+        #input-area button { padding: 0; width: 40px; height: 40px; border: none; background-color: var(--primary-color); color: var(--button-text-color); border-radius: 50%; cursor: pointer; font-weight: 500; transition: background-color 0.2s ease, transform 0.1s ease; display: flex; align-items: center; justify-content: center; }
+        #input-area button svg { width: 18px; height: 18px; stroke: var(--button-text-color); }
+        #input-area button:hover { background-color: color-mix(in srgb, var(--primary-color) 85%, black); }
+        #input-area button:active { transform: scale(0.95); }
+        footer { text-align: center; padding: 30px 20px; margin-top: auto; background-color: var(--surface-color); border-top: 1px solid var(--border-color); }
+        #greeting { font-size: 0.9em; color: var(--secondary-color); }
+        #chat-history::-webkit-scrollbar { width: 8px; }
+        #chat-history::-webkit-scrollbar-track { background: var(--bg-color); border-radius: 10px; }
+        #chat-history::-webkit-scrollbar-thumb { background: var(--secondary-color); opacity: 0.7; border-radius: 10px; }
+        #chat-history::-webkit-scrollbar-thumb:hover { opacity: 1; }
+    </style>
+</head>
+<body class="light-mode"> 
+    <header>
+        <div class="container header-content">
+            <h1>{{ project_name | default('Business Consultation') }}</h1>
+            <button id="theme-toggle-button">🌙 Dark Mode</button>
+        </div>
+    </header>
+
+    <div class="hero-section">
+        <div class="container">
+            <h2>Elevate Your Business with AI-Powered Strategic Insights</h2>
+            <p>Leverage cutting-edge AI to analyze markets, refine strategies, and drive growth. Our expert AI consultants are here to guide you every step of the way.</p>
+        </div>
+    </div>
+
+    <div class="threed-model-showcase container">
+        <h3>Featured Visuals</h3>
+        <div id="threed-container">
+            </div>
+    </div>
+
+    <div class="services-section container">
+        <h3>Our Core Consulting Services</h3>
+        <div class="service-cards-container">
+            <div class="service-card" data-service="market_strategy" data-service-name="Market & Growth Strategy" data-ai-greeting="I'm ready to help you formulate a winning market strategy. What are your primary goals or challenges?">
+                <h4>Market & Growth Strategy</h4>
+                <p>Develop robust market entry plans, identify growth opportunities, and refine your competitive positioning with AI-driven analysis.</p>
+                <span class="consult-button">Consult AI on Strategy</span>
+            </div>
+            <div class="service-card" data-service="operational_efficiency" data-service-name="Operational Efficiency" data-ai-greeting="Let's optimize your operations! Tell me about your current processes or bottlenecks.">
+                <h4>Operational Efficiency</h4>
+                <p>Streamline your processes, reduce costs, and enhance productivity by leveraging AI insights for operational excellence.</p>
+                <span class="consult-button">Consult AI on Operations</span>
+            </div>
+            <div class="service-card" data-service="digital_transformation" data-service-name="Digital Transformation" data-ai-greeting="Embarking on a digital transformation? Let's discuss your vision and how AI can accelerate it.">
+                <h4>Digital Transformation</h4>
+                <p>Navigate the complexities of digital change. Implement AI and data-driven solutions to future-proof your business model.</p>
+                <span class="consult-button">Consult AI on Digital</span>
+            </div>
+             <div class="service-card" data-service="startup_advisory" data-service-name="Startup Advisory" data-ai-greeting="Launching a startup? I can help with business plans, funding strategies, and early-stage growth. What's on your mind?">
+                <h4>Startup Advisory</h4>
+                <p>Get tailored advice for your startup journey, from ideation and business planning to securing funding and scaling.</p>
+                <span class="consult-button">Consult AI for Startups</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="ai-chat-section container" id="aiChatSection" style="display: none;"> 
+        <h3>AI Consulting Session</h3>
+        <p class="service-context-display" id="serviceContextDisplay">Select a service above to begin.</p>
+        <div id="chat-container">
+            <div id="chat-history">
+            </div>
+            <div id="input-area">
+                <textarea id="promptInput" rows="1" placeholder="Ask your service-specific question..."></textarea>
+                <button onclick="sendChatMessage()" title="Send Message">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p id="greeting">Status: Ready</p>
+        </div>
+    </footer>
+
+    <script>
+        const chatHistoryDiv = document.getElementById("chat-history");
+        const promptTextarea = document.getElementById("promptInput");
+        const greetingElement = document.getElementById("greeting");
+        const themeToggleButton = document.getElementById("theme-toggle-button");
+        const aiChatSection = document.getElementById("aiChatSection");
+        const serviceContextDisplay = document.getElementById("serviceContextDisplay");
+        const serviceCards = document.querySelectorAll(".service-card");
+
+        const flaskServerBaseUrl = "http://127.0.0.1:5000"; 
+        let currentServiceContext = null; 
+        let currentServiceAIName = "AI Business Advisor"; 
+        let currentAIGreeting = "Hello! How can I assist you today?";
+
+        function applyTheme(theme) {
+            document.body.classList.remove('light-mode', 'dark-mode');
+            document.body.classList.add(theme + '-mode');
+            localStorage.setItem('theme', theme);
+            themeToggleButton.textContent = theme === 'dark' ? '☀️ Light Mode' : '🌙 Dark Mode';
+        }
+        themeToggleButton.addEventListener('click', () => {
+            const currentTheme = document.body.classList.contains('dark-mode') ? 'dark' : 'light';
+            applyTheme(currentTheme === 'dark' ? 'light' : 'dark');
+        });
+        const savedUserTheme = localStorage.getItem('theme');
+        const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        if (savedUserTheme) {
+            applyTheme(savedUserTheme);
+        } else {
+            applyTheme(systemPrefersDark ? 'dark' : 'light');
+        }
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+            if (!localStorage.getItem('theme')) { 
+                applyTheme(event.matches ? 'dark' : 'light');
+            }
+        });
+
+        serviceCards.forEach(card => {
+            card.addEventListener('click', () => {
+                currentServiceContext = card.dataset.service;
+                currentServiceAIName = card.dataset.serviceName || "AI Advisor";
+                currentAIGreeting = card.dataset.aiGreeting || "How can I help with this service?";
+                serviceContextDisplay.textContent = `Consulting on: ${currentServiceAIName}`;
+                aiChatSection.style.display = 'block'; 
+                chatHistoryDiv.innerHTML = ''; 
+                appendMessage(currentAIGreeting, "ai");
+                promptTextarea.placeholder = `Ask about ${currentServiceAIName}...`;
+                aiChatSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            });
+        });
+
+        fetch(`${flaskServerBaseUrl}/api/hello`) 
+            .then(r => r.ok ? r.json() : Promise.reject(`HTTP error! status: ${r.status}`))
+            .then(d => {
+                if (greetingElement) greetingElement.textContent = `Status: ${d.msg || 'Connected'}`;
+            })
+            .catch(e => {
+                if (greetingElement) greetingElement.textContent = "Status: API connection error. Is the server running?";
+                console.error("Greeting fetch error:", e);
+            });
+
+        function escapeHtml(unsafe) {
+            return unsafe
+                 .replace(/&/g, "&amp;")
+                 .replace(/</g, "&lt;")
+                 .replace(/>/g, "&gt;")
+                 .replace(/"/g, "&quot;")
+                 .replace(/'/g, "&#039;");
+        }
+
+        function basicMarkdownToHtml(text) {
+            let html = escapeHtml(text); 
+            html = html.replace(/\*\*(.*?)\*\*|__(.*?)__/g, '<strong>$1$2</strong>');
+            html = html.replace(/\*(.*?)\*|_(.*?)_/g, '<em>$1$2</em>');
+            html = html.replace(/\n/g, '<br>');
+            html = html.replace(/^(\s*)(\d+)\.\s+(.*)/gm, '$1<span style="display:list-item; list-style-type:decimal; margin-left:20px;">$3</span>');
+            html = html.replace(/^(\s*)[\-\*]\s+(.*)/gm, '$1<span style="display:list-item; list-style-type:disc; margin-left:20px;">$2</span>');
+            return html;
+        }
+
+        function appendMessage(text, senderType) {
+            const messageDiv = document.createElement("div");
+            messageDiv.classList.add("message", senderType + "-message");
+            const paragraph = document.createElement("p");
+            if (senderType === 'ai' && !(text.startsWith("<em>"))) { 
+                paragraph.innerHTML = basicMarkdownToHtml(text);
+            } else { 
+                if (text.startsWith("<em>")) {
+                    paragraph.innerHTML = text;
+                } else {
+                    paragraph.textContent = text; 
+                }
+            }
+            messageDiv.appendChild(paragraph);
+            chatHistoryDiv.appendChild(messageDiv);
+            chatHistoryDiv.scrollTop = chatHistoryDiv.scrollHeight; 
+            return messageDiv; 
+        }
+
+        async function sendChatMessage() {
+            const promptText = promptTextarea.value.trim();
+            if (!promptText || !currentServiceContext) { 
+                if (!currentServiceContext && aiChatSection.style.display === 'block') {
+                     const tempAIMsg = appendMessage("Please select a service type above before asking a question.", "ai");
+                     setTimeout(() => { if (tempAIMsg.parentNode) tempAIMsg.remove(); }, 3000);
+                }
+                return;
+            }
+
+            appendMessage(promptText, "user");
+            promptTextarea.value = "";
+            adjustTextareaHeight(); 
+
+            const aiMessageDiv = appendMessage("", "ai"); 
+            const aiParagraph = aiMessageDiv.querySelector("p");
+            if (aiParagraph) aiParagraph.innerHTML = "<em>AI is typing...</em>";
+            chatHistoryDiv.scrollTop = chatHistoryDiv.scrollHeight;
+
+            try {
+                const response = await fetch(`${flaskServerBaseUrl}/api/ask`, { 
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ 
+                        prompt: promptText,
+                        service_context: currentServiceContext 
+                    }),
+                });
+
+                if (!response.ok) {
+                    let errorMsg = `Server error: ${response.status} ${response.statusText}`;
+                    try { const errorData = await response.json(); errorMsg = errorData.error || errorMsg; } catch (e) {}
+                    if (aiParagraph) aiParagraph.innerHTML = basicMarkdownToHtml(errorMsg);
+                    console.error("Server error before stream:", errorMsg);
+                    return;
+                }
+                
+                if (aiParagraph) aiParagraph.innerHTML = ""; 
+
+                const reader = response.body.getReader();
+                const decoder = new TextDecoder();
+                let accumulatedResponse = ""; 
+
+                while (true) {
+                    const { done, value } = await reader.read();
+                    if (done) break;
+                    const chunk = decoder.decode(value, { stream: true });
+                    const lines = chunk.split("\n\n");
+                    for (const line of lines) {
+                        if (line.startsWith("data: ")) {
+                            const jsonData = line.substring("data: ".length);
+                            if (jsonData.trim()) {
+                                try {
+                                    const parsedData = JSON.parse(jsonData);
+                                    if (parsedData.delta) {
+                                        accumulatedResponse += parsedData.delta;
+                                        if (aiParagraph) aiParagraph.innerHTML += basicMarkdownToHtml(parsedData.delta); 
+                                        chatHistoryDiv.scrollTop = chatHistoryDiv.scrollHeight;
+                                    } else if (parsedData.error) {
+                                        if (aiParagraph) aiParagraph.innerHTML += basicMarkdownToHtml(`\nStream Error: ${parsedData.error}`);
+                                        return; 
+                                    } else if (parsedData.event && parsedData.event === 'done') {
+                                        console.log("Streaming finished.");
+                                    }
+                                } catch (e) {
+                                    console.warn("Failed to parse JSON chunk from stream:", jsonData, e);
+                                }
+                            }
+                        }
+                    }
+                }
+                if (accumulatedResponse === "" && aiParagraph && aiParagraph.innerHTML.trim() === "") {
+                    aiParagraph.innerHTML = "<em>No further response from AI.</em>";
+                }
+            } catch (error) {
+                console.error("Error in sendChatMessage (streaming):", error);
+                if (aiParagraph) {
+                     if (aiParagraph.innerHTML.includes("<em>") || aiParagraph.innerHTML.trim() === "") { 
+                         aiParagraph.innerHTML = basicMarkdownToHtml(`Failed to get response: ${error.message}. Server: ${flaskServerBaseUrl}`);
+                    } else { 
+                        aiParagraph.innerHTML += basicMarkdownToHtml(`\nError during streaming: ${error.message}`);
+                    }
+                } else { 
+                    appendMessage(`Failed to get response: ${error.message}. Server: ${flaskServerBaseUrl}`, "ai");
+                }
+            }
+        }
+
+        function adjustTextareaHeight() {
+            promptTextarea.style.height = 'auto'; 
+            let newHeight = promptTextarea.scrollHeight;
+            const maxHeight = 120; 
+            if (newHeight > maxHeight) {
+                newHeight = maxHeight;
+                promptTextarea.style.overflowY = 'auto';
+            } else {
+                promptTextarea.style.overflowY = 'hidden';
+            }
+            promptTextarea.style.height = newHeight + 'px';
+        }
+        promptTextarea.addEventListener("input", adjustTextareaHeight);
+        promptTextarea.addEventListener("keypress", function(event) {
+            if (event.key === "Enter" && !event.shiftKey) {
+                event.preventDefault(); 
+                sendChatMessage();
+            }
+        });
+        adjustTextareaHeight();
+
+        // --- Three.js 3D Model Loading ---
+        function initThreeJSModel(modelInfoArray) { 
+            const container = document.getElementById('threed-container');
+            if (!container || typeof THREE === 'undefined' || typeof THREE.GLTFLoader === 'undefined') { 
+                console.error("DEBUG: Three.js container or THREE/GLTFLoader library not found.");
+                if(container) container.innerHTML = '<p>3D Viewer not available.</p>';
+                return;
+            }
+            console.log("DEBUG: initThreeJSModel called with:", JSON.stringify(modelInfoArray)); 
+            while (container.firstChild) { container.removeChild(container.firstChild); }
+
+            const scene = new THREE.Scene();
+            const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true }); 
+            renderer.setSize(container.clientWidth, container.clientHeight);
+            renderer.setPixelRatio(window.devicePixelRatio);
+            container.appendChild(renderer.domElement);
+            renderer.setClearColor(0x000000, 0); 
+
+            const camera = new THREE.PerspectiveCamera(50, container.clientWidth / container.clientHeight, 0.1, 1000);
+            camera.position.set(0, 0.5, 4); // Adjusted camera position slightly for better view of two models
+
+            const ambientLight = new THREE.AmbientLight(0xffffff, 1.2); 
+            scene.add(ambientLight);
+            const directionalLight1 = new THREE.DirectionalLight(0xffffff, 1.0); 
+            directionalLight1.position.set(5, 10, 7.5);
+            scene.add(directionalLight1);
+            const directionalLight2 = new THREE.DirectionalLight(0xffffff, 0.6); 
+            directionalLight2.position.set(-5, -5, -5); 
+            scene.add(directionalLight2);
+            
+            const loader = new THREE.GLTFLoader();
+            const modelsGroup = new THREE.Group(); 
+            scene.add(modelsGroup);
+
+            let successfullyLoadedModels = 0;
+
+            modelInfoArray.forEach((modelInfo, index) => {
+                if (!modelInfo || !modelInfo.filename) {
+                    console.error(`DEBUG: Invalid modelInfo at index ${index}:`, modelInfo);
+                    return; // Skip this entry
+                }
+                const modelPath = `/static/assets/3d/${modelInfo.filename}`; 
+                console.log(`DEBUG: Attempting to load model ${index + 1}: ${modelInfo.filename} from ${modelPath}`);
+                
+                loader.load(
+                    modelPath,
+                    function (gltf) { 
+                        console.log(`DEBUG: Successfully loaded ${modelInfo.filename}`);
+                        const model = gltf.scene;
+                        
+                        const box = new THREE.Box3().setFromObject(model);
+                        const size = box.getSize(new THREE.Vector3());
+                        
+                        let scale = modelInfo.scale_factor; 
+                        if (typeof scale === 'undefined') { 
+                            const maxDim = Math.max(size.x, size.y, size.z);
+                            scale = (maxDim > 0) ? (2.0 / maxDim) : 1.0; // Target max dimension of 2.0 units
+                        }
+                        model.scale.set(scale, scale, scale);
+                        
+                        // Center model at its own origin *before* applying group offset and Y adjustment
+                        const scaledBox = new THREE.Box3().setFromObject(model); 
+                        const scaledCenter = scaledBox.getCenter(new THREE.Vector3());
+                        model.position.sub(scaledCenter); 
+                        
+                        model.position.x = modelInfo.x_offset || 0; 
+                        model.position.y = -scaledBox.min.y; // Align bottom of model's bounding box to y=0
+                        model.position.z = 0; 
+
+                        modelsGroup.add(model);
+                        successfullyLoadedModels++;
+                        console.log(`DEBUG: Added ${modelInfo.filename} to group. Total loaded: ${successfullyLoadedModels}. Group children: ${modelsGroup.children.length}`);
+
+                        // Center the group only when all models expected have been successfully loaded and added
+                        if (successfullyLoadedModels === modelInfoArray.length && modelInfoArray.length > 0) {
+                            const groupBox = new THREE.Box3().setFromObject(modelsGroup);
+                            const groupCenter = groupBox.getCenter(new THREE.Vector3());
+                            modelsGroup.position.x -= groupCenter.x; // Center the group horizontally
+                            modelsGroup.position.y -= groupBox.min.y; // Align bottom of the group to world Y=0
+                            console.log("DEBUG: All models processed and group re-positioned.");
+                        }
+                    },
+                    undefined, 
+                    function (error) { 
+                        console.error(`DEBUG: Error loading 3D model: ${modelInfo.filename}`, error);
+                        const errorP = document.createElement('p');
+                        errorP.textContent = `Could not load ${modelInfo.filename}.`;
+                        if (container) container.appendChild(errorP); 
+                    }
+                );
+            });
+
+            function animate() {
+                requestAnimationFrame(animate);
+                if (modelsGroup.children.length > 0) { 
+                    modelsGroup.rotation.y += 0.005; 
+                }
+                renderer.render(scene, camera);
+            }
+            
+            if (modelInfoArray && modelInfoArray.length > 0) {
+                 animate();
+            }
+            
+            let resizeTimeout;
+            function onWindowResize() {
+                if(container && container.clientWidth > 0 && container.clientHeight > 0){ 
+                    camera.aspect = container.clientWidth / container.clientHeight;
+                    camera.updateProjectionMatrix();
+                    renderer.setSize(container.clientWidth, container.clientHeight);
+                }
+            }
+            window.addEventListener('resize', () => {
+                clearTimeout(resizeTimeout);
+                resizeTimeout = setTimeout(onWindowResize, 100);
+            });
+        } 
+
+        document.addEventListener('DOMContentLoaded', () => {
+            // ** IMPORTANT: Replace these with your actual model filenames **
+            // ** and desired x_offset and optional scale_factor.          **
+            // ** Ensure models are in 'static/assets/3d/'                  **
+            const modelsToDisplay = [
+                { filename: 'laptop_model.glb', x_offset: -1.0 }, // Example: laptop on left
+                { filename: 'businessman_model.glb', x_offset: 1.0 }  // Example: businessman on right
+            ];
+            // If you only want to test one model, use an array with one entry:
+            // const modelsToDisplay = [{ filename: 'laptop_model.glb', x_offset: 0 }];
+            
+            initThreeJSModel(modelsToDisplay); 
+        });
+
+    </script>
+</body>
+</html>

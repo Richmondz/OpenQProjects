@@ -1,0 +1,17 @@
+Name: "startup data.csv"
+Source File: e.g., startup data.csv
+Original Source License: https://www.kaggle.com/datasets/manishkc06/startup-success-prediction
+Relevance to Project: It can help startup industries gain valuable knowledge on what makes a successful startup.
+Columns Used : Cleaned
+Processing Notes: Cleaned the columns to only include what I believed was relevant.
+
+Name: Store sales forecasting
+Source File: "stores_sales_forecasting.csv"
+Original Source License: https://www.kaggle.com/datasets/tanayatipre/store-sales-forecasting-dataset/data
+Relevance to Project: I think its useful to help ai identify patterns based off of data on why stores have high sales.
+Columns Used : All
+Processing Notes: Did not clean or touch the columns.
+
+
+
+

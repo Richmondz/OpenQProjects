@@ -1,0 +1,4 @@
+* Add more aesthetic UI, animation and visual effects.
+* Possibly train an ai agent to give very specific responses
+* Monetize it
+*Grab more relevant data to feed into the bootup.

@@ -1,0 +1,924 @@
+state_code,latitude,longitude,zip_code,city,name,object_id,has_VC,has_angel,has_roundA,has_roundB,has_roundC,has_roundD,avg_participants,is_top500,status
+CA,42.35888,-71.05682,92101,San Diego,Bandsintown,c:6669,0,1,0,0,0,0,1.0,0,acquired
+CA,37.238916,-121.973718,95032,Los Gatos,TriCipher,c:16283,1,0,0,1,1,1,4.75,1,acquired
+CA,32.901049,-117.192656,92121,San Diego,Plixi,c:65620,0,0,1,0,0,0,4.0,1,acquired
+CA,37.320309,-122.05004,95014,Cupertino,Solidcore Systems,c:42668,0,0,0,1,1,1,3.3333,1,acquired
+CA,37.779281,-122.419236,94105,San Francisco,Inhale Digital,c:65806,1,1,0,0,0,0,1.0,1,closed
+CA,37.406914,-122.09037,94043,Mountain View,Matisse Networks,c:22898,0,0,0,1,0,0,3.0,1,closed
+CA,37.3915589,-122.0702643,94041,Mountain View,RingCube Technologies,c:16191,1,0,1,1,0,0,1.6667,1,acquired
+CA,38.057107,-122.513742,94901,San Rafael,ClairMail,c:5192,0,0,1,1,0,1,3.5,1,acquired
+MA,42.712207,-73.203599,1267,Williamstown,VoodooVox,c:1043,1,0,1,0,0,1,4.0,1,acquired
+CA,37.427235,-122.145783,94306,Palo Alto,Doostang,c:498,1,1,1,0,0,0,1.0,1,acquired
+CA,37.4429885,-122.1624131,94025,Menlo Park,Zong,c:3949,0,0,1,1,0,0,1.0,1,acquired
+CA,37.452992,-122.185098,94025,Menlo Park,Center'd,c:4829,1,1,1,0,0,0,1.75,1,closed
+KY,38.241467,-85.72451099999998,40204,Louisville,Resonant Vibes,c:30290,1,0,0,0,0,0,1.0,0,closed
+NY,40.70276,-73.98666800000002,11201,Brooklyn,drop.io,c:1491,0,0,1,1,1,0,2.3333,1,acquired
+CO,39.74627279999999,-104.9911572,80202,Denver,Stratavia,c:15645,0,0,1,1,0,0,2.5,1,acquired
+VA,38.901301,-77.265158,22182,Vienna,Invicta Networks,c:54177,1,0,0,0,0,0,1.0,0,closed
+CA,37.39628270000001,-122.105531,94022,Los Altos,QSecure,c:16770,1,0,1,1,1,1,3.5,1,closed
+CA,37.590339,-122.341715,94010,Burlingame,MeeVee,c:107,0,0,1,1,1,1,3.5,1,acquired
+NY,40.730646,-73.986614,10004,New York,SinglePlatform,c:50727,0,1,1,0,0,0,5.0,1,acquired
+CA,37.446411,-122.16054,94301,Palo Alto,Bling Nation,c:26368,0,0,1,1,0,0,1.0,1,closed
+TX,30.2350399,-97.80012990000002,78735,Austin,Metreos Corporation,c:22291,0,1,1,0,0,0,1.5,0,acquired
+WA,47.6026054,-122.2848651,98122,Seattle,Hidden City Games,c:17857,0,0,0,1,0,0,2.0,1,closed
+CA,37.426316,-122.141082,94306,Palo Alto,Neopolitan Networks,c:15888,0,0,1,0,0,0,2.0,0,closed
+CA,37.764395,-122.401024,94103,San Francisco,Pixelpipe,c:10751,0,1,1,0,0,0,2.0,0,closed
+CO,40.010492,-105.276843,80302,Boulder,EventVue,c:458,0,1,1,0,0,0,4.5,1,closed
+IL,41.875555,-87.624421,60601,Chicago,BridgePort Networks,c:45525,0,0,0,0,1,0,4.0,1,acquired
+CA,37.429676,-122.1085482,94303,Palo Alto,Scalent Systems,c:3193,0,0,0,0,1,0,4.0,1,acquired
+CA,37.870102,-122.268136,94704,Berkeley,IQ Engines,c:28456,0,0,0,1,0,0,2.0,1,acquired
+TX,30.2653441,-97.7435857,78701,Austin,"RetailMeNot, Inc.",c:36920,1,0,1,0,1,0,1.75,1,acquired
+CA,33.708708,-117.852069,92705,Santa Ana,Mophie,c:35712,1,0,0,0,0,0,2.0,1,acquired
+CA,37.422859,-122.045217,94035,Moffett Field,Airship Ventures,c:21492,0,0,1,1,0,0,2.0,1,closed
+WA,47.603832,-122.330062,98119,Seattle,Lockdown Networks,c:28768,1,0,0,1,0,0,1.5,1,acquired
+NC,36.002893,-78.904075,27701,Durham,eMinor,c:27741,0,0,1,1,0,0,2.5,1,closed
+CA,37.779281,-122.419236,94105,San Francisco,Karma,c:150658,1,0,0,0,0,0,5.0,1,acquired
+PA,40.441694,-79.990086,15219,Pittsburgh,Zipano,c:34338,0,1,0,0,0,0,1.0,0,closed
+NY,40.73901,-73.997259,10011,New York,Entertainment Media Works,c:45111,0,0,0,1,0,0,1.0,1,closed
+CA,37.791137,-122.391843,94111,San Francisco,Elastra,c:3178,0,0,1,1,0,0,2.0,1,closed
+CA,37.404788,-121.940842,95134,San Jose,RPO,c:35402,0,0,0,1,1,0,4.5,1,closed
+CA,37.7795014,-122.3948712,94107,San Francisco,Fotomoto,c:22856,0,1,1,0,0,0,2.3333,1,acquired
+NY,40.755446,-73.980246,10010,New York,Peer39,c:1224,1,1,1,1,1,0,2.75,1,acquired
+GA,33.756806,-84.392198,30303,Atlanta,Vitrue,c:1234,0,0,1,1,1,0,3.0,1,acquired
+NH,42.99564,-71.454789,3101,Manchester,Trendslide,c:149809,0,1,0,0,0,0,1.0,0,acquired
+CA,40.01573320000001,-105.275027,94025,Menlo Park,PublicEarth,c:13733,1,0,1,0,0,0,1.0,1,closed
+WA,47.63609,-122.327028,98102,Seattle,Azaleos,c:39106,0,0,0,0,1,0,2.0,1,acquired
+CA,37.4049731,-122.0323525,94089,Sunnyvale,Efficient Frontier,c:5306,0,0,0,0,1,0,3.0,1,acquired
+CA,37.36883,-122.03635,94085,Sunnyvale,NetDevices,c:16303,0,0,0,1,0,0,5.0,1,acquired
+NY,40.730646,-73.986614,100011,New York,Go Try It On,c:43188,0,1,1,0,0,0,2.0,1,acquired
+MA,42.3751,-71.105616,2139,Cambridge,Performable,c:33507,0,0,1,0,0,0,1.0,1,acquired
+CA,37.779281,-122.419236,94607,San Francisco,Appstores.com,c:68157,0,1,0,0,0,0,9.5,1,acquired
+CA,37.560781,-122.284114,94404,San Mateo,Fortify Software,c:2395,0,0,0,0,0,1,2.0,1,acquired
+CA,37.658313,-122.391032,94080,South San Francisco,iCurrent,c:38220,0,0,1,0,0,0,1.0,1,acquired
+MA,42.360253,-71.058291,2210,Boston,AisleBuyer,c:49815,0,0,0,0,0,0,1.0,1,acquired
+TX,30.321464,-97.75501,78731,Austin,Indeed,c:249,0,0,1,0,0,0,3.0,1,acquired
+MA,42.37564,-71.2358,2451,Waltham,Colubris Networks,c:22027,1,0,0,0,0,1,5.0,1,acquired
+CA,37.7870842,-122.4038047,94103,San Francisco,Mashery,c:109,1,1,1,1,1,1,5.0,1,acquired
+CA,37.441537,-122.158332,94301,Palo Alto,Transparency Software,c:43948,1,0,1,0,0,0,2.0,1,closed
+CA,37.445586,-122.161929,95128,Palo Alto,Viewdle,c:765,1,0,1,1,0,0,2.0,1,acquired
+CA,33.5842816,-117.7306817,92656,Aliso Viejo,Enclarity,c:19257,0,0,0,0,1,0,2.0,1,acquired
+CA,37.402773,-122.052551,94089,Sunnyvale,Virsto Software,c:25827,0,0,1,1,0,0,3.3333,1,acquired
+MO,39.103151,-94.581908,64106,Kansas City,Handmark,c:5932,0,0,1,1,0,0,4.5,1,acquired
+MA,42.546483,-71.17366700000002,1887,Wilmington,Viacor,c:35157,0,0,0,1,0,0,2.0,1,closed
+CA,37.805289,-122.404448,94111,San Francisco,Carbonetworks,c:8596,0,0,1,0,0,0,1.0,1,closed
+WA,47.675489,-122.191667,98033-6314,Kirkland,SchemaLogic,c:19861,1,0,0,0,1,0,3.0,1,acquired
+FL,27.951849,-82.456397,33609,Tampa,Skyway Software,c:45114,1,0,0,0,0,0,3.0,0,closed
+MA,42.360253,-71.058291,02111-1720,Boston,CardStar,c:23533,0,0,1,0,0,0,3.0,1,acquired
+CA,37.7831775,-122.3086191,94501,Alameda,Makani Power,c:25325,0,0,0,1,0,0,1.0,1,acquired
+WA,47.765758,-122.184304,98011,Bothell,Myrio,c:8351,1,0,0,0,0,0,4.0,1,closed
+CO,40.730646,-73.986614,80302,Boulder,Intela,c:10392,1,0,0,0,0,0,2.0,0,acquired
+CA,37.54763,-122.307887,94403-1855,San Mateo,Sana Security,c:26128,0,0,0,0,0,0,2.0,1,acquired
+CA,37.790485,-122.40094,94104,San Francisco,Sportgenic,c:2808,0,1,1,1,0,0,3.3333,1,acquired
+CA,37.7870923,-122.3999719,94105,San Francisco,Lolapps,c:10581,0,0,1,0,0,0,3.0,1,acquired
+CA,37.3492097,-122.0326019,94087,Sunnyvale,Behavio,c:190214,0,1,0,0,0,0,1.0,0,acquired
+FL,28.098905,-82.400087,33626,Tampa,Infinity Box,c:1674,0,1,0,0,0,0,1.5,1,acquired
+CA,37.779026,-122.40184,94103,San Francisco,adBrite,c:170,0,0,1,1,1,1,1.6667,1,acquired
+TX,32.9583632,-96.8215658,75001,Dallas,Texert,c:27740,0,0,1,0,0,0,1.0,1,closed
+CA,37.54827,-121.988572,94538,Fremont,Mendocino Software,c:46186,1,0,0,1,0,0,4.0,1,closed
+CA,37.354469,-121.990433,95051,Santa Clara,QuikCycle,c:43162,1,0,0,0,0,0,1.0,1,closed
+CA,37.779281,-122.419236,94107,San Francisco,Instagram,c:43233,0,1,1,1,0,0,4.0,1,acquired
+NY,40.606061,-73.822331,10004,New York,Motionbox,c:1498,0,0,1,1,1,0,2.6667,1,acquired
+MA,42.3751,-71.105616,2138,Cambridge,AccelGolf,c:31514,1,1,0,0,0,0,1.0,1,closed
+CA,37.779281,-122.419236,94105,San Francisco,MoPub,c:58944,0,1,1,1,0,0,2.25,1,acquired
+NJ,40.349274,-74.659296,8540,Princeton,DNP Green Technology,c:40197,0,0,1,0,0,0,6.0,1,closed
+CO,40.397761,-105.07498,80538,Loveland,Abound Solar,c:51023,1,0,0,0,0,0,2.5,1,closed
+CA,37.420428,-122.090769,94043,Mountain View,Trovix,c:13168,0,0,1,1,0,0,2.5,1,acquired
+NY,40.725435,-73.997395,10012,New York,Thumbplay,c:649,0,0,0,0,1,0,4.0,1,acquired
+WV,39.388156,-77.885552,25430,Kearneysville,Plethora Technology,c:52694,0,0,1,0,0,0,3.0,0,closed
+CA,34.043948,-118.468204,90025,Los Angeles,DailyStrength,c:3080,0,0,1,0,0,0,1.0,1,acquired
+MI,42.350749,-83.44458900000002,48187,Canton,Danotek Motion Technologies,c:28424,1,0,0,1,0,0,3.6667,1,closed
+CA,37.388869,-122.072353,94041,Mountain View,Yub,c:280611,1,0,0,0,0,0,9.0,1,closed
+WA,47.614018,-122.19655,98004,Bellevue,SNAPin Software,c:30537,0,0,0,1,1,0,4.5,1,acquired
+CA,37.406217,-121.976473,95054,Santa Clara,Azuro,c:14656,1,0,0,1,0,0,4.0,1,acquired
+DC,37.09024,-95.712891,20007,Washington,ARPU,c:1766,1,0,0,1,1,0,3.5,1,closed
+CA,37.779281,-122.419236,94105,San Francisco,BookFresh,c:16938,0,1,0,0,0,0,5.0,1,acquired
+CA,37.779281,-122.419236,94110,San Francisco,Singly,c:83265,0,0,1,0,0,0,7.0,1,acquired
+NY,40.753881,-73.978852,10173,New York,TxVia,c:23136,0,0,1,1,1,1,4.0,1,acquired
+CA,37.406914,-122.09037,94043,Mountain View,Blue Vector Systems,c:54066,0,0,0,1,0,0,3.0,1,closed
+IL,41.878984,-87.637,60606,Chicago,Open Kernel Labs,c:17219,1,0,1,0,0,0,2.0,1,acquired
+NJ,40.535316,-74.521435,8873,Somerset,Elanti Systems,c:23234,1,0,0,0,0,0,3.0,1,closed
+CA,37.779281,-122.419236,94105,San Francisco,Astrid,c:70586,0,1,0,0,0,0,3.0,1,acquired
+CA,37.863464,-122.3153453,94710,Berkeley,Nordic Windpower,c:26612,1,0,0,0,1,0,2.6667,1,closed
+GA,34.070958000000005,-84.274733,30009,Alpharetta,Visiprise,c:57923,0,0,0,1,0,0,7.0,1,closed
+WA,39.78373,-100.445882,98104,Seattle,Hubspan,c:58133,0,0,0,0,0,1,4.0,1,acquired
+WA,47.614422,-122.192337,98004,Bellevue,iConclude,c:5587,1,0,1,1,0,0,2.3333,1,acquired
+CA,37.314002,-121.932365,95128,San Jose,41st Parameter,c:38338,1,0,0,1,1,1,3.0,1,acquired
+CA,37.748676,-122.415813,94110,San Francisco,Aardvark,c:4622,0,1,1,0,0,0,4.0,1,acquired
+VA,38.030823,-78.48158000000002,22902,Charlottesville,Hotelicopter,c:202,0,0,1,1,0,0,1.0,0,closed
+VA,39.035298,-77.430125,20166,Dulles,Anystream,c:15652,1,0,0,0,1,0,2.0,1,acquired
+IL,39.78373,-100.445882,60607,Chicago,CakeStyle,c:144825,0,1,0,0,0,0,1.0,0,closed
+CA,37.758062,-122.418642,94110,San Francisco,Fluther,c:9772,0,1,0,0,0,0,7.0,1,acquired
+CT,41.85361500000001,-72.70375,6002,Bloomfield,Pocket Communications Northeast,c:19101,0,0,1,1,0,0,2.0,1,closed
+CA,34.01052,-118.495981,60401,Santa Monica,Goodreads,c:1612,0,1,1,0,0,0,4.0,1,acquired
+CA,37.3821368,-121.970505,95054,Santa Clara,Woven Systems,c:17620,0,0,1,1,0,0,2.5,1,acquired
+CA,37.433646,-121.886704,95035-6261,Milpitas,Kolorific,c:43873,0,0,0,0,1,0,1.0,0,closed
+CA,37.45604,-122.165399,94025,Menlo Park,Krugle,c:3986,0,0,0,1,0,0,4.0,1,acquired
+CA,32.721834,-117.161797,92101,San Diego,Flud,c:61592,1,1,0,0,0,0,4.0,1,closed
+CA,37.779281,-122.419236,94103,San Francisco,Chomp,c:35236,0,1,1,0,0,0,3.5,1,acquired
+CA,37.584103000000006,-122.366082,94010,Burlingame,Origen Therapeutics,c:31968,0,0,0,0,0,0,1.0,0,closed
+NC,35.76524000000001,-78.731161,27606,Raleigh,Inlet Technologies,c:27620,1,0,0,1,1,0,3.6667,1,acquired
+NY,40.740441,-73.993376,10011,New York,ShopWiki,c:9816,0,0,1,0,0,0,1.0,0,acquired
+NY,40.750519,-73.993494,10001,New York,Fondu,c:52566,0,1,0,0,0,0,6.0,0,acquired
+MA,42.387597,-71.099497,2143,Somerville,Loudcaster,c:49236,0,1,0,0,0,0,1.0,1,closed
+CA,37.522281,-122.258139,94065,Redwood City,TwoFish,c:2234,0,0,1,1,0,0,2.5,1,acquired
+TX,40.694599,-73.990638,78701,Austin,Workstreamer,c:3505,0,1,1,0,0,0,1.0,1,closed
+NY,40.729839,-73.991781,10003,New York,Qwiki,c:56989,1,0,1,0,0,0,6.3333,1,acquired
+CA,37.54827,-121.988572,94538,Fremont,Redwood Systems,c:28482,1,0,1,1,1,0,2.25,1,acquired
+MA,42.37564,-71.2358,2451,Waltham,Artisan Pharma,c:40324,0,0,1,1,1,0,4.6667,1,acquired
+MD,39.436844,-76.61870400000002,21093,Timonium,Bill Me Later,c:1595,1,0,1,0,0,0,2.5,1,acquired
+PA,40.441694,-79.990086,15213,Pittsburgh,Bueda,c:31294,1,1,0,0,0,0,1.0,1,closed
+VA,38.958402,-77.357974,20191,Reston,Defywire,c:43875,1,0,0,1,0,0,3.0,1,closed
+CA,37.554214,-121.977451,94538,Fremont,Silicon Clocks,c:16562,1,0,0,1,0,0,3.5,1,acquired
+NY,40.762674,-73.9821315,10019,New York,TheMarkets,c:18075,1,0,0,0,0,0,5.0,1,acquired
+IL,41.875555,-87.624421,60606,Chicago,Netgamix Inc,c:86120,0,1,0,0,0,0,1.0,1,closed
+CA,37.55911,-122.303493,95054,Santa Clara,Sentrigo,c:12173,0,0,1,1,1,0,2.0,1,acquired
+CA,37.440682,-122.123103,94303,Palo Alto,Netli,c:44650,1,0,0,0,0,0,7.0,1,acquired
+OH,39.099909,-84.504243,45202,Cincinnati,Define My Style,c:70021,0,1,0,0,0,0,3.0,1,closed
+GA,33.749099,-84.390185,30305,Atlanta,Firethorn,c:17660,1,0,0,1,0,0,1.0,1,acquired
+CA,37.404788,-121.940842,95134,San Jose,Wellcore,c:51745,0,0,0,0,0,0,1.0,1,closed
+MA,42.3634664,-71.07866379999999,2142,Cambridge,Taligen Therapeutics,c:25324,0,0,1,1,0,0,3.5,1,acquired
+CA,37.551441,-122.291435,94403,San Mateo,Adap.tv,c:77,1,1,1,1,1,0,2.5,1,acquired
+CA,37.77951820000001,-122.3902619,94107,San Francisco,Current Media,c:1895,0,0,1,0,0,0,3.0,0,closed
+CA,37.31665260000001,-122.05074,95008,Campbell,ParAccel,c:16593,1,0,0,1,1,0,5.3333,1,acquired
+CA,37.783171,-122.392901,94107-4132,San Francisco,Arch Rock Corporation,c:16289,0,0,1,1,0,0,3.0,1,acquired
+NY,37.09024,-95.712891,10014,New York,SpiralFrog,c:575,0,0,1,0,0,0,1.0,0,closed
+CA,37.400367,-121.985711,95054,Santa Clara,Plusmo,c:15562,0,0,1,0,0,0,1.0,1,acquired
+VA,39.001619,-77.403201,20166,Sterling,ZipList,c:62432,0,0,1,1,0,0,2.0,1,acquired
+CA,37.788653,-122.401333,94105,San Francisco,Involver,c:8100,0,0,1,1,1,0,2.5,1,acquired
+CA,37.779281,-122.419236,94107,San Francisco,Lionside,c:62262,0,0,1,0,0,0,3.0,1,acquired
+NY,40.73901,-73.997259,10011,New York,Game Trust,c:3686,1,0,0,1,0,0,4.0,1,acquired
+CA,37.548418700000006,-122.3151646,94403,San Mateo,Nearbuy Systems,c:82805,1,0,0,0,0,0,2.0,1,acquired
+CA,37.55818,-122.276454,94404,Foster City,Visible Path,c:196,0,0,1,1,0,0,4.0,1,acquired
+GA,33.774486,-84.385448,30308,Atlanta,VT Silicon,c:28114,1,0,1,0,0,0,1.0,1,closed
+CA,34.03423370000001,-118.4536137,90025,Los Angeles,GetBack,c:13277,0,0,1,0,0,0,1.0,0,closed
+CA,37.835676,-122.263548,94609,Oakland,Slipstream,c:63217,0,1,0,0,0,0,1.0,0,closed
+CA,37.5541073,-121.9756765,94538,Fremont,HipLogic,c:2534,0,0,1,1,0,0,2.5,1,acquired
+CA,38.279431,-122.668452,94954,Petaluma,Dilithium Networks,c:5264,1,0,0,1,1,1,5.2,1,closed
+CA,37.7824533,-122.3879489,94107,San Francisco,Yobongo,c:58512,0,1,0,0,0,0,10.0,1,acquired
+IL,41.8851542,-87.62231829999998,60601,Chicago,Brickfish,c:12957,0,0,1,0,0,0,1.0,1,acquired
+MA,42.360253,-71.058291,2109,Boston,MyEnergy,c:34499,0,1,1,0,0,0,3.0,1,acquired
+CA,37.36883,-122.03635,94085,Sunnyvale,LikeList,c:34028,0,0,1,0,0,0,1.0,0,closed
+VA,38.881717,-77.089398,22201,Arlington,Social Collective,c:23335,0,1,0,0,0,0,1.0,0,closed
+WA,47.60732,-122.335746,98101,Seattle,Pure Networks,c:30526,0,0,0,1,0,0,3.0,1,acquired
+CO,39.568064,-104.977831,80112,Centennial,Internet Pawn,c:42519,1,0,1,0,0,0,2.0,1,closed
+IL,41.940611,-87.835972,60631,Chicago,NeuroTherapeutics Pharma,c:48376,1,0,0,1,0,0,4.0,1,closed
+CA,37.560155,-122.285588,94404,San Mateo,Provade,c:15693,1,0,1,0,1,0,1.0,1,acquired
+CA,37.404788,-121.940842,95134,San Jose,Infineta Systems,c:47587,0,0,1,1,0,0,2.5,1,closed
+TX,30.268236,-97.740651,78701,Austin,Challenge Games,c:1669,0,0,1,1,0,0,1.5,1,acquired
+CA,37.758229,-122.439512,94114,San Francisco,Crowd Factory,c:421,1,0,0,0,0,0,3.0,1,acquired
+TN,35.149021999999995,-90.05162800000002,38103-4717,Memphis,Friendsignia,c:155621,0,1,0,0,0,0,1.0,0,closed
+NY,40.730646,-73.986614,10013,New York,Vizibility,c:40782,1,1,0,0,0,0,3.0,1,acquired
+CA,37.5783263,-122.3485679,94010-4031,Burlingame,OpenFeint,c:51306,1,0,0,0,0,0,1.0,1,acquired
+NY,40.743808,-73.983626,10016,New York,Tumblr,c:1088,1,0,1,1,1,1,3.5,1,acquired
+NY,40.730646,-73.986614,10013,New York,Hotlist,c:34522,1,1,0,0,0,0,1.0,1,closed
+MA,42.3751,-71.105616,2139,Cambridge,Crashlytics,c:83692,0,1,1,0,0,0,6.0,1,acquired
+MN,45.006515,-93.46651,55441,Plymouth,BridgePoint Medical,c:43831,1,0,0,1,1,0,3.0,1,acquired
+CA,37.777741,-122.412198,94104,San Francisco,Recurve,c:28428,1,0,1,0,0,0,2.0,1,acquired
+TX,30.35504,-97.801083,78730,Austin,Conformity,c:17974,0,0,1,0,0,0,1.0,0,closed
+WA,39.78373,-100.445882,98104,Seattle,Moprise,c:81475,1,1,0,0,0,0,1.0,1,closed
+CA,37.779281,-122.419236,94108,San Francisco,Plizy,c:76543,1,0,1,0,0,0,1.0,1,closed
+PA,40.0708709,-75.302716,19428,Conshohocken,ShopRunner,c:84161,1,0,0,0,0,0,1.0,0,acquired
+MA,42.296111,-71.238524,2494,Needham,RatePoint,c:810,0,0,1,1,1,0,2.5,1,closed
+CA,33.63776,-117.855989,92660,Newport Beach,Digital Performance,c:16488,1,0,1,0,0,0,2.0,1,closed
+TX,30.2729209,-97.7443863,78701,Austin,Gowalla,c:11042,0,0,1,1,0,0,6.0,1,acquired
+CO,40.138979,-105.124465,80501,Longmont,Copan Systems,c:17633,1,0,0,0,1,1,6.5,1,acquired
+CA,37.512318,-122.20091399999998,94063,Redwood City,Replay Solutions,c:3187,0,0,1,1,0,0,2.0,1,acquired
+NY,40.728425,-73.999882,10012,New York,Turf Geography Club,c:164922,0,1,0,0,0,0,3.0,1,closed
+CA,37.779281,-122.419236,94108,San Francisco,skyrockit,c:81886,1,0,0,0,0,0,1.0,1,closed
+IL,41.800255,-88.149362,60563,Naperville,Cartavi,c:54585,0,1,0,0,0,0,1.0,1,acquired
+CA,34.147047,-118.148896,91101,Pasadena,Cramster,c:11507,0,0,1,1,0,0,1.0,0,acquired
+CA,37.317847,-121.948469,95128,San Jose,Certify Data Systems,c:24860,1,0,1,1,0,0,1.0,0,acquired
+CA,37.779281,-122.419236,94103,San Francisco,Wheelz,c:148750,0,0,1,0,0,0,3.0,1,acquired
+MA,42.37564,-71.2358,2451,Waltham,CentrePath,c:45611,1,0,0,0,1,0,2.5,1,acquired
+CA,37.8093381,-122.4166061,94111,San Francisco,VoxPop Network Corporation,c:4106,0,0,1,1,0,0,3.0,1,acquired
+CA,37.43841079999999,-121.9240273,95035,Milpitas,OpVista,c:17775,0,0,0,0,1,1,1.0,1,closed
+CA,37.775196,-122.419204,94105,San Francisco,Metaweb Technologies,c:144,0,0,1,1,0,0,3.5,1,acquired
+CA,37.78811500000001,-122.397141,94105,San Francisco,DocVerse,c:13046,0,1,0,0,0,0,4.0,1,acquired
+CA,32.902266,-117.20834,92121,San Diego,Veoh,c:40,0,0,1,1,1,1,5.0,1,acquired
+MA,42.341899,-71.065924,2118,Boston,BzzAgent,c:26460,0,1,0,1,0,0,2.0,1,acquired
+CA,37.40006,-122.049689,94043,Mountain View,Hammerhead Systems,c:15887,0,0,0,0,1,1,6.0,1,closed
+PA,40.418851,-79.904163,15218,Pittsburgh,ThermalTherapeuticSystems,c:36742,1,0,1,0,0,0,3.0,1,closed
+CA,37.778613,-122.395289,94404,San Mateo,GuardianEdge Technologies,c:3962,0,0,1,1,0,0,3.3333,1,acquired
+CA,34.019657,-118.487549,90405,Santa Monica,Gradient X,c:162116,0,0,0,0,0,0,9.0,1,acquired
+IL,41.817807,-88.173402,60555,Warrenville,ezzai - how to arabia,c:55044,0,0,0,0,0,0,2.0,0,closed
+NC,35.79181,-78.74123,27607,Raleigh,rPath,c:7207,0,0,1,1,1,1,2.75,1,closed
+PA,40.063476,-75.457492,19312,Berwyn,Boomi,c:863,0,1,0,1,0,0,1.5,1,acquired
+CA,37.382376,-122.037607,94086,Sunnyvale,VoloMedia,c:16066,0,0,0,1,1,0,2.0,1,closed
+CA,37.76690900000001,-122.406676,94103,San Francisco,Flixster,c:220,0,1,1,1,0,0,2.6667,1,acquired
+CA,37.793148,-122.402567,94104,San Francisco,Wesabe,c:54,0,1,1,0,0,0,1.5,1,closed
+CA,26.0524615,-80.1378809,95037,Morgan Hill,OfferLounge,c:9730,0,1,0,0,0,0,2.0,0,closed
+CA,37.393679,-122.079017,94041,Mountain View,NeoEdge Networks,c:3122,1,0,0,1,0,0,1.6667,0,acquired
+TX,30.435079,-97.770139,78729,Austin,SemiSouth Laboratories,c:36579,1,0,1,0,0,0,3.0,0,closed
+MA,42.345927,-71.55228699999998,01752-4603,Marlborough,Camiant,c:43327,0,0,0,1,1,0,2.5,1,acquired
+CA,37.795191,-122.430411,94115,San Francisco,NuConomy,c:1789,0,1,1,0,0,0,2.0,1,acquired
+CA,37.779281,-122.419236,94110,San Francisco,Flowtown,c:38339,0,1,0,0,0,0,9.0,1,acquired
+GA,33.776834,-84.3895875,30308,Atlanta,GlobalCrypto,c:13410,1,1,0,0,0,0,2.0,0,closed
+NY,40.730646,-73.986614,10154,New York,Bioenvision,c:43915,1,0,0,0,0,0,3.0,1,closed
+CA,37.404788,-121.940842,95134,San Jose,Teranetics,c:37712,1,0,0,0,1,0,5.3333,1,acquired
+CA,33.97279,-118.427578,90094,Playa Vista,WebVisible,c:3288,0,0,1,1,1,0,1.3333,1,closed
+CA,37.7983181,-122.4000032,94111,San Francisco,GoodGuide,c:10179,0,0,1,1,0,0,3.0,1,acquired
+CA,37.320309,-122.05004,95014,Cupertino,ViVu,c:33869,0,0,1,1,0,0,2.5,1,acquired
+NY,40.730646,-73.986614,10013,New York,avVenta,c:21528,0,0,1,0,0,0,1.0,0,acquired
+RI,51.43247,-2.664213,2906,Providence,DiJiPOP,c:30820,0,1,0,0,0,0,1.5,1,acquired
+DC,38.897976,-77.028561,20005,Washington,Layer 7 Technologies,c:25782,1,0,0,1,0,0,2.0,1,acquired
+CA,37.781689,-122.391061,94107,San Francisco,DeliveryEdge,c:278,0,0,0,0,0,0,1.0,0,closed
+CA,37.779281,-122.419236,94105,San Francisco,Solmentum,c:75500,0,1,0,0,0,0,4.0,0,closed
+CA,37.787249,-122.3990501,94105,San Francisco,Pipewise,c:67806,0,0,1,0,0,0,5.0,1,closed
+WA,47.602873,-122.336132,98104,Seattle,GridNetworks,c:1212,0,1,1,1,0,0,2.0,1,closed
+CA,39.78373,-100.445882,94043-1107,Mountain View,MAP Pharmaceuticals,c:31754,0,0,0,0,0,1,6.0,1,acquired
+NY,40.745003,-73.98322900000002,10016,New York,"ORCA, Inc.",c:25307,0,0,1,0,0,0,3.0,1,acquired
+CA,37.52845,-122.263721,94065,Redwood City,Amobee,c:1870,1,0,1,1,1,1,2.3333,1,acquired
+CA,34.045919,-118.16525,91754,Monterey Park,KOTURA,c:27285,0,0,0,1,1,1,4.5,1,acquired
+TX,33.068275,-96.711101,75023,Plano,Auvitek International,c:48640,0,0,0,1,0,0,4.0,1,closed
+CA,37.287285,-121.942932,94041,Mountain View,Outright,c:18470,0,0,1,0,0,0,3.5,1,acquired
+TX,30.271393,-97.748623,78701,Austin,Phurnace Software,c:21395,0,0,1,0,0,0,2.0,1,acquired
+CA,34.142973,-118.140553,91105,Pasadena,FastSoft,c:25132,1,0,1,0,0,0,1.0,0,acquired
+CA,37.465645,-121.932202,94538,Fremont,GrandCentral,c:72,0,0,1,0,0,0,1.0,0,acquired
+MI,42.548008,-83.214753,48025,Bingham Farms,Speedshape,c:17429,1,0,0,0,0,0,1.0,0,closed
+CA,37.32052,-121.948399,95128,San Jose,BlueLithium,c:487,0,0,1,0,0,0,2.0,1,acquired
+IL,41.875555,-87.624421,60657,Chicago,Media Chaperone,c:40665,1,0,0,0,0,0,1.0,0,closed
+NY,40.7566658,-73.9827553,10036,New York,Giant Realm,c:2972,0,0,1,0,0,0,2.0,1,acquired
+PA,39.951311,-75.169522,10011,Philadelphia,Invite Media,c:1832,0,1,1,0,0,0,1.6667,1,acquired
+CA,37.406914,-122.09037,94043,Mountain View,UpMo,c:30173,1,0,0,0,0,0,3.0,0,closed
+CA,36.9397206,-121.7768449,95019-2901,Freedom,Appscio,c:17512,0,0,1,0,0,0,2.0,0,closed
+MA,42.375219,-71.056101,2129,Boston,Eons,c:833,0,0,1,1,0,0,3.5,1,closed
+MA,42.358822,-71.104329,2142,Cambridge,LocaModa,c:615,0,0,1,0,0,0,2.0,0,acquired
+CA,37.392443,-122.072517,94110,San Francisco,Meraki,c:1731,0,1,1,1,1,1,2.25,1,acquired
+TX,30.280148,-97.749908,78701,Austin,MPOWER Mobile,c:39755,1,0,0,0,0,0,1.0,1,closed
+WA,47.638456,-122.356965,98109,Seattle,Haute Secure,c:134,0,1,1,0,0,0,1.5,1,acquired
+MD,39.116333,-77.18130699999998,20814,Bethesda,Intelliworks,c:6313,0,0,1,1,1,1,2.5,1,acquired
+OR,45.520247,-122.674195,97209,Portland,Meridian,c:107746,1,1,0,0,0,0,3.0,0,acquired
+NY,40.723652,-73.985281,10016,New York,Kluster,c:2566,0,1,0,0,0,0,1.0,1,acquired
+PA,40.602206,-75.47127900000002,18106,Allentown,International Battery,c:47440,0,0,0,0,1,0,1.0,0,closed
+NY,37.480999,-122.173887,10016,New York,Jingle Networks,c:44,1,1,1,1,1,1,3.1667,1,acquired
+MA,42.5656454,-71.3222696,01862-2000,North Billerica,SemEquip,c:30527,1,0,0,0,0,0,2.0,1,acquired
+CA,34.054935,-118.244476,90017,Los Angeles,ItsGoinOn,c:83176,0,1,0,0,0,0,1.0,0,closed
+CO,39.750152,-104.99643799999998,80202,Denver,mSnap,c:20488,0,0,1,0,0,0,1.0,1,acquired
+GA,34.062588,-84.16923,30097,Duluth,Biofisica,c:24570,1,0,1,0,0,0,3.0,1,closed
+CA,37.406914,-122.09037,94043,Mountain View,Ardian,c:20506,0,0,1,1,1,0,4.0,1,acquired
+RI,51.43247,-2.664213,2903,Providence,Tracelytics,c:69279,0,1,1,0,0,0,4.0,1,acquired
+CA,37.791388,-122.392148,94105,San Francisco,Canopy Financial,c:23192,0,0,0,1,1,0,1.0,1,closed
+CA,37.788482,-122.409173,94102,San Francisco,Kyte,c:38,0,1,1,1,0,0,3.0,1,acquired
+MA,42.393662,-71.25585500000003,2451,Waltham,Ounce Labs,c:7376,1,0,0,0,1,0,2.5,1,acquired
+MA,42.496515,-71.480233,1719,Boxborough,Crossbeam Systems,c:16070,0,0,0,0,0,0,5.5,1,acquired
+CA,37.534538,-122.252466,94065,Redwood City,PacketHop,c:53814,0,0,0,0,1,0,4.0,1,closed
+UT,40.767013,-111.890431,84124,Salt Lake City,Inaura,c:53831,1,0,0,0,0,0,1.0,0,closed
+TX,30.161661,-95.471256,77380,The Woodlands,DynaPump,c:24040,0,0,0,1,0,0,3.0,0,closed
+CA,37.424298,-122.139809,94306,Palo Alto,Immunet Corporation,c:40762,0,0,1,0,0,0,2.0,1,acquired
+TX,30.280148,-97.749908,78701,Austin,CopperEgg Corporation,c:75008,0,0,1,0,0,0,1.5,1,acquired
+CA,37.40047,-122.072981,94041,Mountain View,Wink,c:197,0,0,1,0,0,0,2.0,1,acquired
+CA,37.767575,-122.411157,94103,San Francisco,PopularMedia,c:3087,0,0,0,1,1,0,2.5,1,acquired
+CA,37.779281,-122.419236,94105,San Francisco,Miyowa,c:23098,0,0,1,1,0,0,2.0,1,acquired
+MA,42.504817,-71.195611,1803,Burlington,Intrusic,c:45792,0,0,1,1,0,0,3.0,1,closed
+WA,47.603832,-122.330062,98103,Seattle,Dashwire,c:37215,1,0,1,0,0,0,1.6667,1,acquired
+CA,37.780883,-122.395257,94107,San Francisco,Reddit,c:314,0,1,0,0,0,0,1.0,1,acquired
+CA,37.779281,-122.419236,94108,San Francisco,Pure Digital Technologies,c:3991,1,1,0,0,0,0,4.0,1,acquired
+CA,37.789429,-122.276524,94501,Alameda,Voxify,c:16892,1,0,0,1,0,1,3.6667,1,acquired
+NC,35.986906,-78.896718,27701,Durham,EvoApp,c:38460,0,1,1,0,0,0,9.5,0,closed
+NY,40.750519,-73.993494,10001,New York,Visual Revenue,c:64959,0,1,1,0,0,0,3.0,1,acquired
+CA,37.484347,-122.225803,94063,Redwood City,Calibra Medical,c:36484,1,0,0,0,0,1,5.0,1,acquired
+CA,37.566009,-122.321646,94401,San Mateo,Offermatic,c:47270,0,1,1,0,0,0,3.0,1,closed
+MA,42.2960173,-71.2128734,2494,Needham,HiWired,c:17433,1,0,0,1,0,0,1.5,1,acquired
+FL,26.106273,-80.41894,33327,Weston,DateMyFamily.com,c:144687,0,1,0,0,0,0,1.0,0,closed
+CA,37.4027811,-122.1441615,94304,Palo Alto,Hyperic,c:6592,0,0,1,1,0,0,2.0,1,acquired
+CA,37.779281,-122.419236,94104,San Francisco,Optimal,c:34545,0,0,1,1,0,0,5.0,1,acquired
+CA,34.430786,-119.715074,93101,Santa Barbara,SendMeHome.com,c:17030,0,1,0,0,0,0,2.0,0,closed
+CA,37.448944,-122.161415,94301,Palo Alto,Q-magic,c:13358,0,1,0,0,0,0,1.0,0,closed
+CA,34.005914000000004,-118.488129,90034,Los Angeles,Geodelic Systems,c:10610,1,0,1,1,0,0,2.0,1,closed
+CA,34.019657,-118.487549,90401,Santa Monica,BlockBeacon,c:68470,0,1,0,0,0,0,1.0,0,acquired
+CA,37.390501,-122.081151,94041,Mountain View,PostPath,c:10197,0,0,0,1,1,0,2.5,1,acquired
+CA,37.386778,-121.966277,95054,Santa Clara,Attune Systems,c:33771,1,0,0,1,0,0,4.0,1,closed
+CA,37.779507,-122.39071,94107,San Francisco,TokBox,c:437,0,0,1,1,1,0,3.6667,1,acquired
+CA,37.391642,-122.09393500000002,94040,Mountain View,Avega Systems,c:15870,1,0,0,1,0,0,3.0,1,closed
+MD,39.2328783,-76.8204666,Maryland 21045,Columbia,Heartscape,c:20062,0,0,0,1,0,0,1.0,1,acquired
+CA,37.419819,-122.09018799999998,94043,Mountain View,PeerMe,c:281,0,0,1,0,0,0,3.0,0,closed
+WA,47.657943,-117.421226,99202,SPOKANE,Pacinian,c:19869,1,0,0,0,0,0,1.0,0,closed
+MA,42.485691,-71.19861999999998,1803,Burlington,neoSaej,c:8251,1,0,1,0,0,0,2.0,1,closed
+WA,39.78373,-100.445882,98104,Seattle,Kiha Software,c:60243,0,0,1,0,0,0,1.0,0,closed
+MA,42.372912,-71.118999,2138,Cambridge,Vlingo,c:513,1,0,1,1,0,0,2.0,1,acquired
+MA,42.432106,-71.453968,1754,Maynard,Tizor Systems,c:19483,0,0,0,1,0,0,5.0,1,acquired
+MD,39.414219,-77.410927,21703,Frederick,Cerona Networks,c:49341,0,0,1,0,0,0,1.0,0,closed
+CA,37.54827,-121.988572,94538,Fremont,Oorja Protonics,c:31764,0,0,1,1,0,0,3.5,1,closed
+TX,30.280148,-97.749908,78701,Austin,Hurricane Party,c:51969,0,1,0,0,0,0,1.0,0,closed
+CA,37.384239,-122.012475,94085,Sunnyvale,Minekey,c:1284,0,1,1,0,0,0,1.0,0,closed
+NY,40.728425,-73.999882,10012,New York,Blip,c:24029,0,1,1,1,1,1,2.0,1,acquired
+CA,37.779281,-122.419236,94105,San Francisco,Fabkids,c:166772,0,0,1,0,0,0,2.0,0,acquired
+CA,37.424298,-122.139809,94306,Palo Alto,CafeBots,c:59709,0,0,1,0,0,0,1.0,1,closed
+CA,32.897274,-117.201076,92121,San Diego,Avaak,c:11888,0,0,1,1,0,0,3.5,1,acquired
+ME,43.643967,-70.923675,4095,West Newfield,Newfield Design,c:158294,0,0,1,0,0,0,3.0,0,closed
+NY,40.73901,-73.997259,10011,New York,Savored,c:58550,0,1,1,0,0,0,4.0,1,acquired
+CA,37.764726,-122.394523,94107,San Francisco,Digg,c:4,0,0,1,1,1,1,4.6667,1,acquired
+NY,40.74731129999999,-73.95491820000002,11101,Long Island City,Songza,c:1475,1,0,0,0,0,0,8.0,1,acquired
+CA,37.536402,-122.325129,94065,Redwood City,Bigfoot Networks,c:23134,1,0,1,1,0,0,2.3333,1,acquired
+CA,37.786942,-122.401245,94105,San Francisco,Kongregate,c:453,0,0,1,1,1,0,2.0,1,acquired
+CA,37.778613,-122.395289,94107,San Francisco,Powerset,c:30,1,0,1,0,0,0,4.0,1,acquired
+CA,37.792394,-122.402349,94104,San Francisco,Kiptronic,c:282,0,1,1,1,0,0,2.0,1,acquired
+WA,39.78373,-100.445882,98104,Seattle,Cozi Group,c:6340,1,0,1,1,0,0,1.3333,1,closed
+WA,47.582658,-122.135282,98007,Bellevue,Likewise Software,c:9599,0,0,0,0,1,0,3.0,1,acquired
+NY,40.73901,-73.997259,10011,NY,Lifestander,c:63621,0,1,0,0,0,0,2.0,0,closed
+CA,37.451026,-122.18676,94025,Menlo Park,Jaxtr,c:251,0,0,1,1,0,0,3.3333,1,acquired
+CO,39.540323,-104.857271,80112,Englewood,MX Logic,c:12285,0,0,0,0,0,0,5.0,1,acquired
+CA,33.020832,-117.077311,90275,Solana Beach,Metaplace,c:885,1,0,1,1,0,0,4.0,1,acquired
+NY,37.402802,-122.117418,10004,New York,TravelMuse,c:1704,0,0,1,1,0,0,2.0,1,acquired
+CA,37.782101,-122.389519,94105,San Francisco,Jambool,c:5986,0,0,1,1,0,0,2.5,1,acquired
+GA,33.7862629,-84.3877936,30309,NW Atlanta,Zipcar,c:23756,1,0,0,1,0,1,2.0,1,acquired
+CA,37.78227879999999,-122.392978,94107,San Francisco,Hitpost,c:43172,0,1,0,0,0,0,3.6667,1,acquired
+CA,37.778551,-122.391686,94107,San Francisco,Home-Account,c:20637,1,0,1,0,0,0,5.5,1,acquired
+PA,40.012771,-75.239234,19004,Bala Cynwyd,PayParade Pictures,c:20033,0,1,1,0,0,0,2.0,1,closed
+CA,37.628328,-122.420814,94066,San Bruno,Planet Metrics,c:13504,0,0,1,0,0,0,2.0,1,closed
+CA,37.7885714,-122.40359850000002,94108,San Francisco,kwiry,c:3185,0,0,1,0,0,0,1.0,1,closed
+CA,37.779624,-122.391236,94107,San Francisco,imeem,c:725,1,1,1,1,0,0,2.4,1,acquired
+IL,42.055849,-87.694664,60201,Evanston,Amadesa,c:13921,0,0,1,1,0,0,2.0,1,closed
+CA,37.4305755,-122.0971389,94043,Mountain View,Cast Iron Systems,c:24549,0,0,0,0,0,1,4.5,1,acquired
+CA,33.133524,-117.254593,92010,Carlsbad,Aptera,c:5952,1,0,0,0,1,0,1.5,1,closed
+CA,37.779281,-122.419236,94111,San Francisco,RentJuice,c:43183,1,0,0,0,0,0,1.6667,1,acquired
+CA,32.901049,-117.192656,92121,San Diego,Verari Systems,c:41968,0,0,0,0,1,0,5.0,1,closed
+CA,37.316653,-122.05074,95014,Cupertino,Parascale,c:5485,0,0,1,0,0,0,2.0,1,acquired
+CA,34.090368,-118.393064,90069,West Hollywood,Geni,c:9,0,0,1,1,1,0,1.3333,1,acquired
+CA,37.794891,-122.397901,94111,San Franciso,Zentact,c:15129,0,1,0,0,0,0,3.0,0,closed
+NY,40.70438220000001,-73.98657170000001,10010,New York,Outside.in,c:339,0,1,1,1,0,0,5.8,1,acquired
+NY,40.756054,-73.986951,10001,New York,Salesforce Buddy Media,c:967,1,0,1,1,1,1,3.8,1,acquired
+CA,37.797435,-122.403175,94017,San Francisco,Vizu Corporation,c:2925,0,0,1,1,0,0,4.0,1,acquired
+CA,37.388077,-122.08316,94041,Mountain View,Zing Systems,c:86,0,0,1,0,1,0,2.5,1,acquired
+MA,42.504817,-71.195611,1803,Burlington,DynamicOps,c:69834,0,0,0,1,0,0,2.0,1,acquired
+TX,30.409765000000004,-97.75101,78759,Austin,Movero Technology,c:44434,1,0,1,0,0,0,2.0,0,acquired
+CA,32.962655,-117.189656,92130,San Diego,Elevation Pharmaceuticals,c:40417,1,0,1,1,0,0,4.3333,1,acquired
+CA,37.4233698,-122.09868590000002,94303,Palo Alto,Punch Entertainment,c:18897,0,0,1,0,0,0,1.0,0,closed
+NY,40.729839,-73.991781,10003,New York,Stickybits,c:43416,0,1,1,0,0,0,2.5,1,closed
+CA,37.779281,-122.419236,94108,San Francisco,Ecast,c:23692,1,0,0,0,0,1,4.5,1,closed
+NY,40.730646,-73.986614,10013,New York,lifeIO,c:28162,0,1,0,0,0,0,5.0,0,closed
+CA,34.049767,-118.459387,90405,Santa Monica,EdgeCast Networks,c:1587,0,1,1,1,1,1,1.75,1,acquired
+TX,32.945353999999995,-96.708874,75081,Richardson,Sirific Wireless,c:26988,0,0,0,0,1,0,7.0,1,acquired
+MI,42.8138649,-86.02384599999998,49464,Zeeland,Revetto,c:26390,0,1,0,0,0,0,1.0,0,closed
+VA,38.969532,-77.385948,20170,Herndon,ZoomSafer,c:32094,0,1,1,1,0,0,1.5,0,acquired
+NJ,40.944543,-74.075419,7652,Paramus,AkaRx,c:39364,1,0,0,0,0,0,2.0,1,acquired
+PA,40.441694,-79.990086,15213,Pittsburgh,Lama Lab,c:51623,1,0,0,0,0,0,1.0,1,closed
+CA,37.425359,-122.1389633,94306,Palo Alto,Buysight,c:8676,0,0,1,1,0,0,3.6667,1,acquired
+CA,37.764169,-122.402021,94110,San Francisco,TripIt,c:767,0,1,0,1,1,0,1.6667,1,acquired
+NY,40.757929,-73.985506,10010,New York,Pinch Media,c:6011,1,1,0,0,0,0,3.5,1,acquired
+MN,44.9773,-93.265469,55311,Minneapolis,Enstratius,c:31794,0,0,1,0,0,0,2.0,1,acquired
+MA,42.368633,-71.075305,2210,Boston,Jumptap,c:10054,1,0,1,1,1,1,4.5,1,acquired
+CA,37.40909600000001,-121.94319099999998,95134,San Jose,WiChorus,c:14036,1,0,1,1,1,0,2.5,1,acquired
+NC,35.996653,-78.90180500000002,27713,Durham,Hatteras Networks,c:38123,1,0,0,0,0,1,3.5,1,acquired
+CA,37.793949,-122.398062,94111,San Francisco,Focus,c:16709,0,0,0,0,1,0,3.0,1,closed
+NY,40.730646,-73.986614,10005,New York,easy2comply (Dynasec),c:46901,0,0,1,0,0,0,3.0,1,acquired
+CA,38.88521,-76.998641,94107,San Francisco,Socialize,c:18056,0,1,0,0,0,0,1.0,0,acquired
+WA,30.6324797,-86.9843446,98033,Kirkland,Clearwire,c:13219,0,0,0,0,0,0,4.25,1,acquired
+TX,32.960431,-96.83026,75001,Addison,CREDANT Technologies,c:44576,0,0,0,0,1,0,5.0,1,acquired
+NY,40.750519,-73.993494,10001,New York,Exclusively.in,c:55043,0,0,1,1,0,0,2.5,1,acquired
+CA,37.406914,-122.09037,94043,Mountain View,Avidia,c:31832,0,0,0,1,1,0,4.5,1,acquired
+CA,33.685697,-117.825982,92612,Irvine,PayDivvy,c:51021,0,1,0,0,0,0,1.0,0,acquired
+MA,42.479262,-71.152277,1801,Woburn,Octavian,c:42672,0,0,1,1,0,0,2.5,1,closed
+NY,40.75166110000001,-73.9843328,10011,New York,KickApps,c:130,0,0,1,1,1,0,3.0,1,acquired
+MA,42.504817,-71.195611,1803,Burlington,Airwide Solutions,c:47601,0,0,0,0,0,1,5.0,1,acquired
+MA,42.360253,-71.058291,2210,Boston,Localocracy,c:60087,0,1,0,0,0,0,1.0,0,acquired
+NY,40.730646,-73.986614,10013,New York City,Pixable,c:24853,0,0,1,1,0,0,1.0,1,acquired
+CA,37.862592,-122.493561,94939,Larkspur,mFoundry,c:14608,1,0,0,1,1,0,4.0,1,acquired
+CA,34.098242,-118.35697,90046,Los Angeles,Bevvy,c:65389,0,1,0,0,0,0,1.0,0,closed
+WA,47.6399006,-122.1914274,98104,Seattle,Livemocha,c:1767,1,0,1,1,1,0,1.5,1,acquired
+CA,37.626166,-122.411025,94066,San Bruno,IronPort Systems,c:6012,0,0,0,1,0,1,4.0,1,acquired
+CA,37.779281,-122.419236,94108,San Francisco,Crowdcast,c:44976,0,0,1,0,0,0,2.0,1,acquired
+MA,42.360253,-71.058291,2114,Boston,Where,c:2275,0,0,1,1,1,0,2.5,1,acquired
+NY,40.756054,-73.986951,10003,New York,Pictela,c:16611,1,0,1,0,0,0,1.5,1,acquired
+CA,37.502742,-122.211281,94063,Redwood City,Grouply,c:975,0,1,1,0,0,0,3.6667,1,acquired
+CA,37.779281,-122.419236,94103,San Francisco,Storify,c:51332,0,1,1,0,0,0,1.3333,1,acquired
+CA,33.685697,-117.825982,92618,Irvine,Axiom Microdevices,c:25713,1,0,0,0,0,0,4.0,1,acquired
+CA,34.019657,-118.487549,90404,Santa Monica,ShoeDazzle,c:36151,1,0,1,1,1,0,2.3333,1,acquired
+NY,40.74929,-73.981328,10016,New York,LiftDNA,c:148576,0,1,0,0,0,0,3.5,0,acquired
+CA,37.424298,-122.139809,94306,Palo Alto,Onavo,c:73586,0,0,1,1,0,0,3.0,1,acquired
+MA,42.37564,-71.2358,2451,Waltham,Pyxis Mobile,c:46070,1,0,1,1,0,0,2.3333,1,closed
+CA,37.354469,-121.990433,95051,Santa Clara,Link_A_Media Devices,c:84867,1,0,0,0,1,1,3.3333,1,closed
+MA,42.37564,-71.2358,2451,Waltham,Guardium,c:12171,0,0,0,0,1,1,4.5,1,acquired
+NV,35.96544,-115.106579,89052,Henderson,Trooval,c:45413,1,0,0,0,0,0,1.0,1,closed
+MA,42.346743,-71.07663199999998,2116,Boston,Compete,c:1285,1,0,1,1,1,0,2.5,1,acquired
+VA,38.872668,-77.367981,22102,McLean,Rollstream,c:13730,0,0,1,1,0,0,1.5,1,acquired
+CA,37.404788,-121.940842,95134,San Jose,NeoGuide Systems,c:31936,0,0,0,0,1,0,1.0,1,acquired
+CA,37.386778,-121.966277,95054,Santa Clara,Accept Software,c:32011,1,0,1,1,1,0,2.0,1,acquired
+CA,37.444531,-122.163352,94301,Palo Alto,Milo,c:22203,0,1,1,0,0,0,12.5,1,acquired
+CA,37.37968400000001,-121.97514,95054,Santa Clara,Mimosa Systems,c:10512,1,0,0,1,1,1,5.0,1,acquired
+NY,37.809782,-122.417306,10003,New York,Surphace,c:105,0,0,1,1,0,0,5.5,1,acquired
+CA,37.388869,-122.072353,94041,Mountain View,Cloudmeter,c:60436,0,0,1,0,0,0,1.0,0,acquired
+CA,37.384756,-122.087712,94010,Burlingame,Zecter,c:5779,1,1,1,0,0,0,1.6667,1,acquired
+MA,42.6161515,-71.3258687,1851,Lowell,Dimdim,c:3413,0,0,1,1,0,0,2.0,1,acquired
+CA,34.01695,-118.451933,90405,Santa Monica,TeleFlip,c:6049,0,0,1,1,0,0,1.0,1,closed
+WA,47.614422,-122.192337,98004,Bellevue,MessageGate,c:58998,1,0,0,0,0,0,5.0,1,closed
+NY,40.825655,-73.46762199999998,11797,Woodbury,Cloverleaf Communications,c:39283,0,0,0,0,1,0,3.0,1,acquired
+CA,37.381876,-121.95993,95054,Santa Clara,SkyPilot Networks,c:13681,1,0,1,0,1,1,4.0,1,acquired
+CA,37.779281,-122.419236,94103,San Francisco,Zencoder,c:21762,0,1,1,0,0,0,8.5,1,acquired
+NY,40.730646,-73.986614,10010,New York,Storm Exchange,c:39801,1,0,1,0,0,0,2.0,1,closed
+NY,40.729839,-73.991781,10003,New York,The Huffington Post,c:1388,1,0,1,1,1,0,2.5,1,acquired
+CA,37.419347,-122.089639,94043,Mountain View,Exaprotect,c:11307,0,0,1,0,0,0,6.0,1,acquired
+MA,42.537592,-71.51201,1460,Littleton,Akorri Networks,c:37929,1,0,1,1,1,0,3.0,1,acquired
+CA,34.054935,-118.244476,90032,Los Angeles,Giiv,c:47115,0,1,1,0,0,0,2.5,1,closed
+CA,34.141876,-118.132377,91203,Glendale,MyShape,c:11817,1,0,0,1,1,0,3.0,1,closed
+TX,30.2702703,-97.742204,78701,Austin,BlackLocus,c:81476,0,0,1,0,0,0,2.0,1,acquired
+IL,41.889474,-87.628912,60610,Chicago,FeedBurner,c:155,0,0,1,1,0,0,4.0,1,acquired
+NY,40.73901,-73.997259,10011,New York,DailyBurn,c:9822,0,1,0,0,0,0,2.5,1,acquired
+CA,37.780716,-122.39391299999998,94107,San Francisco,CastTV,c:93,0,1,1,0,0,0,2.0,1,acquired
+NY,40.750519,-73.993494,10001,New York,Venmo,c:37635,0,1,1,0,0,0,6.0,1,acquired
+NY,40.752516,-73.973072,10017,New York,WeShow,c:1627,0,0,1,0,0,0,2.0,0,closed
+CA,37.785655,-122.398393,CA 94105,San Francisco,SenSage,c:15294,1,0,0,0,1,1,3.8,1,acquired
+MA,42.528635,-71.27802199999998,1821,Billerica,Luminus Devices,c:27163,0,0,0,1,0,1,4.3333,1,acquired
+CA,32.88945,-117.166929,92121,San Diego,Tapioca Mobile,c:3267,1,1,0,0,0,0,1.0,1,closed
+NY,40.728425,-73.999882,10012,New York,BestVendor,c:77139,0,1,1,0,0,0,3.0,1,acquired
+WA,47.59896810000001,-122.33290359999998,98104,Seattle,Local Marketers,c:9085,1,0,0,0,0,0,1.0,1,closed
+CA,37.222698,-121.979887,95030,Los Gatos,Eyeona,c:80259,0,0,0,0,0,0,1.0,0,closed
+CO,39.937989,-105.058729,80021,Broomfield,ColdSpark,c:26806,1,0,0,0,0,0,1.0,1,acquired
+CA,37.561111,-122.27048700000002,94404,Foster City,Etology,c:18080,0,0,1,0,0,0,3.0,0,closed
+CA,37.391642,-122.09393500000002,94040,Mountain View,Wander (f. YongoPal),c:55592,1,1,0,0,0,0,2.0,1,closed
+OR,45.520247,-122.674195,97214,Portland,CrowdCompass,c:74928,0,0,1,0,0,0,1.0,0,acquired
+NY,40.74632,-73.982607,10011,New York,Right Media,c:2731,0,0,0,1,0,0,1.0,0,acquired
+MA,42.360253,-71.058291,2111,Boston,Goby,c:32383,0,0,1,0,0,0,2.0,1,acquired
+TX,30.280148,-97.749908,78701,Austin,FiveRuns,c:1419,0,0,1,1,0,0,1.0,1,acquired
+CA,34.066697,-118.383367,90211,Beverly Hills,GeekStatus,c:53304,0,1,0,0,0,0,1.0,0,closed
+CT,54.983201,-1.574631,6103,Hartford,MOLI,c:1899,0,0,1,1,0,0,2.0,0,closed
+CO,39.616435,-104.879925,80111,Greenwood Village,TrenStar,c:29168,1,0,0,0,0,0,1.0,0,acquired
+WA,47.603832,-122.330062,98109,Seattle,World Blender,c:60352,0,1,0,0,0,0,1.0,1,closed
+MD,38.988766,-76.940952,20742,College Park,Zymetis,c:39507,1,0,0,0,0,0,1.0,0,closed
+NY,40.729839,-73.991781,10003,New York,Dispatch,c:82843,0,1,0,0,0,0,6.0,1,acquired
+CA,34.054935,-118.244476,90015,Los Angeles,HauteLook,c:23052,0,0,0,1,1,0,1.5,1,acquired
+TX,32.969251,-96.823778,75001,Addison,Semantra,c:10969,1,0,0,1,1,0,1.0,0,closed
+CA,38.223032,-122.261642,94558,Napa,Inertia Beverage Group,c:6150,1,0,0,1,0,0,2.5,1,closed
+CA,37.779281,-122.419236,94103,San Francisco,Sponge,c:46129,0,1,0,0,0,0,1.0,1,acquired
+NY,40.730646,-73.986614,10119,New York,Genesis Networks,c:36936,1,0,0,1,0,0,2.0,1,acquired
+CA,37.763652,-122.421778,94110,San Francisco,Mogad,c:1760,0,0,1,0,0,0,4.0,1,acquired
+CA,37.393679,-122.079017,94041,Mountain View,Meebo,c:173,0,0,1,1,1,1,2.8,1,acquired
+IL,42.048203,-88.03156899999998,60143,Itasca,Accertify,c:6520,1,0,1,0,0,0,1.0,1,acquired
+MA,37.09024,-95.712891,2142,Cambridge,N2N Commerce,c:1725,1,0,0,0,0,0,2.0,1,acquired
+MA,42.447318,-71.2245,2421,Lexington,StreamBase Systems,c:26007,0,0,0,1,1,1,3.25,1,acquired
+CA,37.381341,-121.977065,95054-2913,Santa Clara,Provigent,c:16189,0,0,0,0,0,1,3.0,1,acquired
+MA,42.375518,-71.27229200000002,2451,Waltham,Navic Networks,c:6117,0,0,1,1,1,0,2.6667,1,acquired
+CA,33.685697,-117.825982,92618,Irvine,Integrien,c:45696,1,0,1,1,0,0,2.6667,1,acquired
+CA,37.441537,-122.158332,94301,Palo Alto,Generic Media,c:56580,1,0,0,0,0,0,2.0,1,closed
+FL,28.0385347,-82.5068513,33618,Tampa,Persystent Technologies,c:23072,0,0,0,1,1,1,4.5,1,acquired
+NY,40.730646,-73.986614,10013,New York,WireImage,c:49442,0,0,0,0,1,0,4.0,1,acquired
+CA,37.779281,-122.419236,94110,San Francisco,Hello Chair,c:38794,1,1,0,0,0,0,3.5,1,closed
+CA,37.573045,-122.2823,94404,Foster City,Encentuate,c:58018,0,0,0,1,0,0,3.0,1,acquired
+CA,37.762185,-122.467269,94104,San Francisco,Consorte Media,c:921,0,0,0,1,0,0,2.0,1,acquired
+NY,40.730646,-73.986614,10004,New York,Triples Media,c:71120,0,1,0,0,0,0,1.0,0,closed
+NY,40.73901,-73.997259,10011,New York,RightsFlow,c:20146,0,0,1,0,0,0,1.0,0,acquired
+WA,47.617838,-122.356027,98104,Seattle,thePlatform,c:7440,1,0,0,0,0,0,1.0,1,acquired
+CA,34.018275,-118.495025,90401,Santa Monica,Docstoc,c:512,0,0,1,1,0,0,3.0,1,acquired
+CA,37.7611016,-122.4160008,94110,San Francisco,TwtBks,c:25808,0,1,0,0,0,0,1.0,0,closed
+CA,37.484347,-122.225803,94063,Redwood City,Zenprise,c:20117,1,0,0,1,1,0,3.6667,1,acquired
+CA,40.787878000000006,-74.388207,94402,San Mateo,Picateers,c:10398,0,0,1,1,0,0,1.0,1,closed
+CA,37.779281,-122.419236,94111,San Francisco,Vontu,c:14854,0,0,0,0,1,1,4.5,1,acquired
+TX,30.409765000000004,-97.75101,78759,Austin,NextIO,c:37647,0,0,0,1,1,0,2.6667,1,closed
+CA,34.154942600000005,-118.6545471,91302,Calabasas,Emergent Game Technologies,c:18875,1,0,0,0,0,1,5.6667,1,acquired
+CA,37.775206,-122.419209,94107,San Francisco,threadsy,c:27591,0,0,1,1,0,0,2.0,1,acquired
+NY,40.750519,-73.993494,10001,New York,Sonar.me,c:76274,0,1,0,0,0,0,2.0,1,closed
+OH,39.099909,-84.504243,45202,Cincinnati,StyleZen,c:150577,0,1,0,0,0,0,1.0,0,closed
+MA,42.492256,-71.13454899999998,1864,North Reading,Kiva Systems,c:12052,0,0,1,0,1,0,2.0,1,acquired
+CA,37.391727,-122.077597,94041,Mountain View,Krillion,c:3180,0,0,1,0,0,0,2.0,1,acquired
+OH,39.099909,-84.504243,45202,Cincinnati,Transactiv,c:33912,0,0,1,0,0,0,4.0,1,closed
+CA,34.054935,-118.244476,90049,Los Angeles,nprogress,c:71372,0,0,0,0,0,0,7.0,1,closed
+CA,39.762314,-104.982256,94010,Burlingame,Brightkite,c:465,1,1,0,0,0,0,1.0,1,acquired
+CA,37.7915,-122.40045,94104,San Francisco,Peanut Labs,c:17430,0,0,1,1,0,0,1.5,1,acquired
+MA,42.354023,-71.05809599999998,2110,Boston,FlipKey,c:4529,0,1,1,0,0,0,2.0,0,acquired
+TX,32.997114,-96.676137,75082,Richardson,AppTrigger,c:41957,0,0,0,0,1,0,4.0,1,acquired
+UT,40.3310529,-111.7276347,84042,Lindon,Footnote,c:2889,0,0,1,0,0,0,2.0,0,acquired
+CA,34.054935,-118.244476,90064,Los Angeles,NextMedium,c:46042,0,0,1,1,0,0,2.5,1,closed
+NM,35.084103000000006,-106.650985,87102,Albuquerque,iosil Energy,c:38504,0,0,0,0,0,0,10.0,1,closed
+NJ,40.347054,-74.064306,7701,Red Bank,Kurani Interactive,c:25997,0,1,0,0,0,0,2.0,0,closed
+CA,37.426316,-122.141082,94306,Palo Alto,Kapow Software,c:2953,0,0,0,1,1,0,2.5,1,acquired
+MA,42.360253,-71.058291,2110,Boston,Locately,c:49876,0,1,0,0,0,0,5.0,1,acquired
+CA,37.520592,-122.255907,94306,Palo Alto,TrustedID,c:1447,0,0,1,1,0,0,2.0,1,acquired
+PA,40.60157589999999,-75.3611135,18015,Bethlehem,Ciclon Semiconductor Device Corporation,c:26114,1,0,1,1,0,0,2.0,1,acquired
+CA,37.382162,-122.036301,94086,Sunnyvale,Azingo,c:25688,0,0,1,1,0,0,1.0,0,closed
+CA,37.354469,-121.990433,95051,Santa Clara,Vudu,c:335,0,0,1,1,0,0,3.5,1,acquired
+MO,38.703764,-90.443832,63043,Saint Louis,"ITOG, Inc.",c:10153,0,1,0,0,0,0,1.0,0,closed
+CA,37.387845,-122.055197,94089,Sunnyvale,Plaxo,c:27,0,0,1,1,1,1,2.5,1,acquired
+CA,37.550954,-122.315396,94303,Palo Alto,Sharetivity,c:1957,0,0,0,0,0,0,1.0,0,closed
+CA,37.627971,-122.426804,94066,San Bruno,YouTube,c:63,0,0,1,1,0,0,1.0,1,acquired
+NY,40.730646,-73.986614,10018,New York City,Hashable,c:58699,0,0,1,0,0,0,3.0,1,closed
+NY,40.74929,-73.981328,10016,New York,MyNines,c:43386,0,1,0,0,0,0,1.0,1,closed
+TX,30.387275,-97.759511,78759,Austin,itzbig,c:3717,0,0,1,0,0,0,2.0,1,closed
+NY,40.650104,-73.94958199999998,11201,Brooklyn,Loosecubes,c:70893,0,1,1,0,0,0,4.0,1,closed
+PA,39.952399,-75.16359,19104,Philadelphia,Avid Radiopharmaceuticals,c:24727,0,1,1,0,1,1,4.75,1,acquired
+CA,34.050451,-118.437775,90024,Los Angeles,Contur,c:162219,0,1,0,0,0,0,1.0,0,closed
+IN,39.7672093,-86.1580785,46204,Indianapolis,ExactTarget,c:12178,1,0,0,0,0,0,2.0,1,acquired
+MA,42.504817,-71.195611,1803,Burlington,Rhythmia Medical,c:23487,1,0,0,1,0,0,1.0,0,acquired
+CA,37.437328,-122.159928,94303,Palo Alto,MyMiniLife,c:3400,0,1,0,0,0,0,1.6667,0,acquired
+CA,37.538352,-122.299665,94403,San Mateo,Adept Cloud,c:176278,1,0,1,0,0,0,1.0,0,acquired
+CA,37.4484914,-122.1802812,94025,Menlo Park,Factery,c:22113,1,0,0,0,0,0,2.0,1,closed
+PA,40.364273,-74.951278,18938,New Hope,"MeetMe, Inc.",c:5617,0,0,1,1,0,0,2.5,1,acquired
+CO,39.6478,-104.9875,80155,Englewood,WildBlue,c:15996,1,0,0,0,0,0,4.0,1,acquired
+CA,34.054935,-118.244476,90039,Los Angeles,HeadCase Humanufacturing,c:46893,0,0,1,0,0,0,1.0,1,closed
+CA,37.563905,-122.324688,94401,San Mateo,bluepulse,c:1753,0,0,1,0,0,0,1.0,1,closed
+NY,40.729839,-73.991781,10003,New York,Mr. Youth,c:22057,0,1,1,0,0,0,1.0,0,acquired
+CA,38.232583,-122.636465,94954,Petaluma,Teknovus,c:35887,1,0,1,1,1,1,9.3333,1,acquired
+CA,37.486368,-122.230116,94063,Redwood City,Qik,c:1628,1,0,0,1,1,0,2.25,1,acquired
+CA,34.172904,-118.37403700000002,91601,North Hollywood,EQAL,c:4453,1,0,1,0,0,0,7.0,1,acquired
+TX,31.5682893,-97.1973664,76710,Waco,IonLogix Systems,c:16973,0,1,0,0,0,0,1.0,0,closed
+CA,37.386778,-121.966277,95054,Santa Clara,Atrica,c:47689,0,0,0,0,0,0,9.0,1,closed
+CO,40.0186731,-105.2762236,80302,Boulder,Socialthing,c:459,0,1,0,0,0,0,1.0,1,acquired
+NY,40.743808,-73.983626,10010,New York,Next New Networks,c:3094,0,0,1,1,1,0,3.5,1,acquired
+CA,34.394343,-119.51231,93013,Carpinteria,AdECN,c:12468,0,0,1,0,0,0,5.0,1,acquired
+CA,37.451124,-122.16626399999998,94025,Menlo Park,Cuil,c:856,0,0,1,1,0,0,2.5,1,closed
+CA,37.430025,-122.09998,94043,Mountain View,Sensory Networks,c:16276,1,0,0,0,1,0,5.0,1,acquired
+CA,37.491356,-122.228843,94025,Menlo Park,Flock,c:410,0,1,1,1,1,1,2.0,1,acquired
+CA,37.563585,-122.324621,94043,Mountain View,AdMob,c:726,0,0,1,1,1,0,2.5,1,acquired
+IL,41.879535,-87.624333,60654,Chicago,FeeFighters,c:8573,0,1,0,0,0,0,2.6667,1,acquired
+NY,40.730646,-73.986614,10010,New York City,WeHostels,c:102867,0,1,0,0,0,0,5.0,1,acquired
+CA,37.391642,-122.09393500000002,94040,Mountain View,TimeBridge,c:431,1,0,1,1,0,0,1.6667,1,acquired
+PA,39.959721,-75.605964,19380,West Chester,Lazarus Therapeutics,c:60516,1,0,0,0,0,0,1.0,1,closed
+CA,37.779281,-122.419236,94105,San Francisco,Loyalty Lab,c:43832,1,1,0,1,0,0,1.6667,1,acquired
+TN,36.16223,-86.774353,37201,Nashville,RentStuff.com,c:83142,0,1,0,0,0,0,1.5,0,acquired
+CA,37.3725243,-122.035963,94086,Sunnyvale,ZManda,c:9669,0,0,1,1,0,0,2.5,1,acquired
+NY,40.728425,-73.999882,10012,New York,Jumo,c:62802,0,0,0,0,0,0,2.0,1,acquired
+MA,42.49173,-71.28179499999997,1730,Bedford,Sionex,c:56568,0,0,0,0,1,0,4.0,1,closed
+CA,37.524422,-122.265869,94002,Belmont,sezmi,c:531,0,0,1,1,1,0,4.3333,1,acquired
+TN,36.13996,-86.796377,37212,Nashville,StudioNow,c:10158,0,0,1,0,0,0,1.0,0,acquired
+CA,37.79402,-122.4031242,94111,San Francisco,PicApp,c:11438,0,0,1,0,0,0,1.0,1,acquired
+WA,47.184901,-122.292141,98371,Puyallup,Million Dollar Earth,c:75796,0,1,0,0,0,0,2.0,0,closed
+CA,37.538352,-122.299665,94403,San Mateo,Composite Software,c:45428,0,1,0,0,0,1,1.0,0,acquired
+CA,37.7710177,-122.4025976,94110,San Francisco,Terracotta,c:16365,1,0,0,1,0,0,5.0,1,acquired
+MA,42.493447,-71.514104,1719,Boxborough,FireStar Software,c:46889,0,0,0,0,0,0,1.0,0,closed
+CA,37.390956,-122.032795,94085,Sunnyvale,Aquest Systems,c:16264,0,0,0,1,0,0,3.0,1,closed
+WA,47.603327,-122.334983,98104,Seattle,Faves,c:1253,0,0,0,0,0,0,3.0,0,closed
+CA,34.031328,-118.471463,90404,Santa Monica,Generate,c:2838,0,0,1,0,0,0,1.5,1,acquired
+CA,37.453687,-122.228595,94401,San Mateo,Attributor,c:732,0,0,1,1,1,1,4.0,1,acquired
+CA,37.552262,-122.292146,94403,San Mateo,Greenplum Software,c:1853,0,0,1,1,1,0,3.0,1,acquired
+CA,37.396312,-121.961396,95054,Santa Clara,PlaySpan,c:971,1,0,1,1,1,0,4.25,1,acquired
+MD,38.963492,-77.091025,20815,Chevy Chase,JackBe,c:1107,0,0,0,1,1,1,4.3333,1,acquired
+CA,37.496904,-122.333057,94404,San Mateo,D2C Games,c:17252,0,0,1,0,0,0,1.0,0,closed
+CA,37.557637,-122.28571399999998,94304,Palo Alto,Zimbra,c:997,0,0,0,0,1,0,9.0,1,acquired
+WA,47.5827803,-122.1548103,98005,Bellevue,Smith & Tinker,c:30307,1,0,0,0,0,0,5.0,1,closed
+CA,37.390233,-122.033741,94085,Sunnyvale,Mu Dynamics,c:16271,0,0,1,1,1,0,2.6667,1,acquired
+CA,34.1411985,-118.7040908,91302,Calabasas,Fulcrum Microsystems,c:22712,1,0,0,0,1,1,5.6667,1,acquired
+CA,41.78942,-87.596232,94105,San Francisco,ReTel Technologies,c:9782,0,1,0,0,0,0,4.5,1,acquired
+CO,39.977763,-105.13193,80027,Louisville,NexGen Storage,c:68169,1,0,1,0,0,0,2.5,1,acquired
+MA,42.479262,-71.152277,1801,Woburn,WAY Systems,c:55354,0,0,0,0,1,0,4.0,1,acquired
+CA,37.459177,-122.173907,94025,Menlo Park,Roxro Pharma,c:31488,0,0,0,1,0,0,3.0,1,closed
+CA,37.4587657,-122.1725191,94025,Menlo Park,Intelliden,c:17542,1,0,0,0,0,1,4.0,1,acquired
+CA,37.288326,-121.945633,95008-2069,Campbell,Forrst,c:44268,0,1,0,0,0,0,7.0,1,acquired
+NY,40.730646,-73.986614,10017,New York,XGraph,c:51228,0,0,1,0,0,0,1.0,1,acquired
+CA,37.441537,-122.158332,94301,Palo Alto,Color Labs Inc.,c:71852,0,0,1,1,0,0,1.5,1,closed
+CA,37.393536,-122.076747,94306,Palo Alto,Playdom,c:23125,0,0,1,0,0,0,4.0,1,acquired
+MA,42.493447,-71.514104,1719,Boxborough,Digital Reef,c:37928,0,0,1,1,0,0,1.0,1,acquired
+CA,37.779281,-122.419236,94107,San Francisco,Servio,c:65916,0,0,1,1,0,0,1.5,1,acquired
+NY,40.743662,-73.984268,10016,New York,Advaliant,c:2245,0,1,0,0,0,0,1.0,0,closed
+GA,33.7812614,-84.36756170000002,30309,Atlanta,Vocalocity,c:16618,0,0,0,1,1,0,3.0,1,acquired
+CA,37.7766184,-122.3938931,94107,San Francisco,Dapper,c:1541,0,0,1,0,0,0,2.0,1,acquired
+CA,37.791564,-122.399981,94104,San Francisco,SeeSaw Networks,c:15687,1,0,1,1,0,0,2.0,1,closed
+MA,42.36401400000001,-71.101375,2139,Cambridge,oneforty,c:20889,0,1,1,0,0,0,5.75,1,acquired
+CA,37.566123,-122.323045,94401,San Mateo,Smalltown,c:2272,0,0,1,0,0,0,1.0,0,closed
+CA,37.406914,-122.09037,94043,Mountain View,Skyrider,c:5043,1,0,0,0,1,0,3.0,1,closed
+NY,40.750519,-73.993494,10001,New York,SkillSlate,c:42193,0,1,0,0,0,0,8.0,1,acquired
+KY,38.046407,-84.497039,40507,Lexington,AwesomeTouch,c:60521,0,1,0,0,0,0,1.0,1,acquired
+CA,37.814202,-122.477959,94025,Menlo Park,Syncplicity,c:4881,0,0,1,0,0,0,2.0,1,acquired
+VA,38.87804000000001,-77.436151,22031,Chantilly,Fortisphere,c:7345,0,0,1,0,0,0,2.0,1,closed
+CA,37.424298,-122.139809,94306,Palo Alto,PlayerDuel,c:103204,1,1,0,0,0,0,1.0,1,closed
+MA,42.3988661,-71.253781,2451,Waltham,Aveksa,c:25743,0,0,1,1,1,0,2.6667,1,acquired
+CA,37.386778,-121.966277,95054,Santa Clara,PANTA Systems,c:55829,1,0,0,0,0,0,2.0,0,closed
+CA,37.352313,-121.967982,95054,Santa Clara,Beceem Communications,c:26556,1,0,0,1,0,1,7.6667,1,acquired
+VA,38.919954,-77.21249300000002,22102,McLean,Trust Digital,c:29312,1,0,0,1,1,0,3.6667,1,acquired
+OR,45.413842,-122.725662,97035,Lake Oswego,Sabrix,c:3050,0,0,0,0,0,1,4.0,1,acquired
+NY,40.73901,-73.997259,10011,New York,Panther Express,c:2709,1,0,0,1,0,0,2.0,1,acquired
+PA,40.602206,-75.47127900000002,18106,Allentown,T-Networks,c:53946,0,0,0,0,1,0,4.0,1,closed
+ME,42.645342,-71.23454699999998,1876,Tewksbury,BlueNote Networks,c:28752,0,0,1,1,0,0,2.5,1,acquired
+CA,37.48657100000001,-122.229161,94063,Redwood City,Predictify,c:1148,0,0,1,0,0,0,2.0,1,closed
+TX,30.384453000000004,-97.709809,78746,Austin,BreakingPoint Systems,c:1967,1,0,0,0,1,0,2.0,1,acquired
+CA,37.3777985,-121.9744545,95054,Santa Clara,OptiMedica,c:27142,0,0,0,0,1,0,3.5,1,acquired
+MA,42.241765,-71.166164,2026,Dedham,Metatomix,c:42123,1,0,0,1,0,0,4.6667,1,acquired
+CA,37.320309,-122.05004,95014,Cupertino,Neterion,c:41656,0,0,0,0,0,1,3.0,1,acquired
+CA,37.477037,-122.15164,94085,Sunnyvale,Schooner Information Technology,c:16145,0,0,1,1,0,0,2.5,1,acquired
+MA,42.358956,-71.054776,2109,Boston,Swaptree Inc.,c:6964,1,0,0,1,1,0,1.0,1,closed
+GA,33.956215,-83.987962,30043,Lawrenceville,Nalace Corporation,c:155821,0,1,0,0,0,0,1.0,0,closed
+NJ,40.728158,-74.077642,7302,Jersey City,Quidsi,c:49052,0,0,1,1,1,1,3.4,1,acquired
+NY,40.730646,-73.986614,10012,NYC,spotdock,c:167795,0,1,0,0,0,0,2.0,0,closed
+MD,38.97864000000001,-76.492786,21401,Annapolis,Netcordia,c:34152,0,0,1,1,0,0,1.5,1,acquired
+CA,37.386665,-122.084171,94040,Mountain View,SearchMe,c:3027,0,0,1,1,1,1,3.0,1,closed
+CA,37.776246,-122.4179223,94103,San Francisco,Yammer,c:10176,0,0,1,1,1,1,5.2,1,acquired
+CA,37.406914,-122.09037,94043,Mountain View,Clever Sense,c:50076,1,0,1,0,0,0,1.5,1,acquired
+TX,30.354768,-97.798152,78730,Austin,AlterPoint,c:26122,0,0,1,1,1,0,3.0,1,acquired
+CA,37.261986,-121.784279,95138,San Jose,Shocking Technologies,c:17501,1,0,1,1,1,0,3.2,1,closed
+CA,37.386665,-122.084171,94040,Mountain View,Ribbit,c:1613,0,0,1,1,0,0,2.0,1,acquired
+CA,37.386778,-121.966277,95054,Santa Clara,StorSimple,c:41484,0,0,1,1,1,0,3.3333,1,acquired
+DC,38.894955,-77.03664599999998,20009,Washington,NationalField,c:76102,1,0,0,0,0,0,2.0,0,acquired
+NY,40.729839,-73.991781,10003,New York,Tripl,c:76765,0,1,0,0,0,0,1.5,1,closed
+CA,37.2615879,-121.9578487,95008,Campbell,Sadra Medical,c:24986,0,0,1,1,1,0,5.0,1,acquired
+MA,42.48510200000001,-71.211568,1803,Burlington,expressor software,c:14593,1,0,0,1,0,0,2.6667,1,acquired
+NV,36.170538,-115.101942,89101,Las Vegas,NSFW Corporation,c:138030,0,1,0,0,0,0,1.5,1,acquired
+CA,37.386778,-121.966277,95054,Santa Clara,Azaire Networks,c:45339,0,0,0,0,1,0,4.0,1,closed
+NY,40.907974,-73.84179,10016,New York,Quigo,c:1214,1,0,1,0,0,0,3.5,1,acquired
+CA,37.779281,-122.419236,94105,San Francisco,Weatherista,c:63731,0,1,0,0,0,0,1.0,0,closed
+TX,32.997114,-96.676137,75082,Richardson,Navini Networks,c:47848,1,0,0,0,0,0,3.5,1,acquired
+CA,37.409147,-122.01546299999998,94089,Sunnyvale,VirtualLogix,c:5347,1,0,1,1,1,0,2.6667,1,acquired
+MA,42.6555302,-71.1455618,1810,Andover,Exit41,c:14993,1,0,1,0,1,0,2.3333,1,closed
+CA,37.351894,-122.085807,94024,Los Altos,SezWho,c:1223,0,0,1,0,0,0,1.0,0,acquired
+MN,44.912723,-93.499059,55343,Minnetonka,Jobs2Web,c:55421,0,1,1,0,0,0,1.0,1,acquired
+CA,37.4063024,-122.1088743,94040,Mountain View,HighlightCam,c:28403,0,1,1,0,0,0,3.5,1,closed
+CA,37.391642,-122.09393500000002,94040,Mountain View,MerchantCircle,c:1283,0,0,1,1,0,0,4.5,1,acquired
+CA,32.901049,-117.192656,92121,San Diego,Helicomm,c:49621,1,0,0,0,0,0,2.0,0,closed
+CA,37.417002,-122.07871000000002,94043,Mountain View,Kace networks,c:15122,1,0,0,1,0,0,1.5,1,acquired
+NY,40.730646,-73.986614,10014,New York,Thwapr,c:38019,1,1,0,0,0,0,3.0,0,closed
+CA,40.234451,-111.658656,94103,San Francisco,Zinch,c:4961,1,1,0,0,0,0,1.0,1,acquired
+CA,37.320309,-122.05004,95014,Cupertino,Cloud.com,c:41483,0,0,0,1,0,0,3.0,1,acquired
+CA,37.445667,-122.166911,94063,Redwood City,"Wildfire, a division of Google",c:12348,0,1,1,1,0,0,2.25,1,acquired
+CA,34.062504,-118.354605,90036,Los Angeles,Authenticlick,c:3202,0,0,1,0,0,0,1.0,0,closed
+WA,45.630695,-122.674456,98665,Vancouver,Idooble,c:32144,0,1,0,0,0,0,1.0,0,closed
+CA,37.658313,-122.391032,94080,South San Francisco,BioSeek,c:32023,0,0,0,0,1,0,1.0,0,acquired
+MA,42.405685,-71.25585699999998,2451,Waltham,xkoto,c:1445,1,0,0,1,1,0,1.6667,1,closed
+MA,42.4717204,-71.26214350000002,2421,Lexington,Coradiant,c:53686,0,0,0,0,0,1,4.0,1,acquired
+CA,39.78373,-100.445882,94566,Pleasanton,QuantaLife,c:50208,0,0,0,1,0,0,1.0,1,acquired
+CA,37.404044,-121.978956,95054,Santa Clara,BroadLight,c:16874,0,0,0,0,0,1,6.0,1,acquired
+NY,40.7445343,-73.98740079999997,10016,New York,BBE,c:643,0,0,1,0,0,0,1.0,0,acquired
+CA,33.923916,-118.39665,90245,El Segundo,TelASIC Communications,c:53471,0,0,0,0,0,1,4.0,1,closed
+CT,44.671539,-70.144101,6032,Farmington,LegiTime Technologies,c:37780,0,0,1,0,0,0,2.0,1,closed
+CA,37.377787,-122.029217,94086,Sunnyvale,Mobius Microsystems,c:17508,0,0,1,1,0,0,3.0,1,acquired
+NY,40.717248,-74.002662,10013,New York,Boonty,c:2804,0,0,0,1,0,0,4.0,1,acquired
+NY,40.7434025,-73.9890857,10010,New York,B-Side Entertainment,c:11397,0,0,1,1,0,0,4.5,1,closed
+CA,37.288136,-121.79765,95138,San Jose,Taggstr,c:41409,0,1,0,0,0,0,1.0,0,closed
+NY,40.7394115,-73.9895748,10010,New York,Fashism,c:55436,0,0,1,0,0,0,7.0,1,closed
+CA,37.39972,-122.108306,94040,Mountain View,Goodmail Systems,c:12630,0,0,1,1,1,0,2.0,1,closed
+CA,32.877656,-117.210595,92121,San Diego,Nirvanix,c:365,1,0,1,1,1,0,4.2,1,closed
+WA,47.6447802,-122.325878,98102,Seattle,LookStat,c:20832,0,0,1,0,0,0,1.0,1,closed
+CA,37.779281,-122.419236,94133,San Francisco,Sweepery,c:39399,0,0,0,0,0,0,1.0,1,closed
+TX,30.306591,-97.826727,78746,Austin,Luminary Micro,c:17809,0,0,1,1,1,0,4.0,1,acquired
+CO,39.5604863,-104.8656251,80112,Englewood,ZettaCore,c:23788,1,0,0,0,0,0,5.0,1,closed
+CA,34.083228000000005,-118.341449,90038,Los Angeles,Clicker,c:30834,0,0,1,1,0,0,3.5,1,acquired
+CA,39.78373,-100.445882,94025,Menlo Park,iKoa,c:39105,1,0,1,0,0,0,2.0,1,closed
+CA,37.626166,-122.411025,94066,San Bruno,SocialShield,c:49960,0,0,1,0,0,0,7.0,1,acquired
+FL,28.032975,-82.64611,33635,Tampa,LeisureLogix,c:9106,0,1,0,0,0,0,1.0,0,closed
+MA,37.237937,-121.974591,1752,Marlborough,Storwize,c:17581,0,0,0,1,1,0,2.0,1,acquired
+NH,42.7370219,-71.48729759999998,3062,Nashua,AutoVirt,c:14028,1,1,1,1,0,0,2.0,1,closed
+CA,37.384717,-122.081625,94040,Mountain View,Loopt,c:1309,0,1,1,1,1,0,1.6667,1,acquired
+CA,37.3169065,-122.0497023,95014,Cupertino,Blue Lane Technologies,c:28420,0,0,0,1,0,0,2.0,1,acquired
+CA,37.78192670000001,-122.3932389,94107,San Francisco,Socialcast,c:6562,0,1,1,1,0,0,1.5,1,acquired
+CO,40.0186313,-105.2764361,80302,Boulder,Collective Intellect,c:4394,1,1,1,1,0,0,2.5,1,acquired
+WA,47.603832,-122.330062,98121,Seattle,Wavii,c:52346,0,0,0,0,0,0,11.0,1,acquired
+CA,37.775196,-122.419204,94103,San Francisco,Seesmic,c:200,0,0,1,1,1,0,5.6667,1,acquired
+MN,44.950404,-93.101503,55113,Saint Paul,Apnex Medical,c:36892,1,0,0,1,1,0,2.3333,1,closed
+PA,39.952399,-75.16359,19103,Philadelphia,MobileReactor,c:139729,1,0,0,0,0,0,1.0,0,closed
+CA,37.661002,-121.897829,94566,Pleasanton,Echopass Corporation,c:17724,0,0,0,0,0,0,4.0,1,acquired
+CA,32.7154,-117.1565,92128,San Diego,ID Analytics,c:16285,0,0,1,1,1,0,3.0,1,acquired
+MA,42.504817,-71.195611,1803,Burlington,Vela Systems,c:43954,1,0,1,1,0,0,2.6667,1,acquired
+CA,37.396023,-122.03311,94085,Sunnnyvale,FlowCardia,c:27555,0,0,0,0,1,0,9.0,1,acquired
+CA,37.537542,-122.327609,94403,San Mateo,Bizanga,c:18804,0,0,0,1,0,0,2.0,1,acquired
+CA,37.782978,-122.394517,94107,San Francisco,Transpond,c:14787,0,0,1,0,0,0,2.0,1,acquired
+IL,40.116421,-88.243383,61820,Champaign,Caterva,c:81474,0,1,0,0,0,0,3.0,1,closed
+CA,37.386778,-121.966277,95054,Santa Clara,Innovative Silicon,c:34401,0,0,1,1,1,0,2.25,1,closed
+MN,44.96659,-93.331943,55416,Golden Valley,Kardia Health Systems,c:37934,1,0,0,0,0,0,1.0,0,closed
+NC,35.72591770000001,-79.17917709999998,27312,Pittsboro,Biolex Therapeutics,c:25383,1,0,0,1,1,1,6.75,1,closed
+MA,42.3751,-71.105616,2140,Cambridge,Foldrx Pharmaceuticals,c:49872,1,0,0,0,0,0,7.0,1,acquired
+WA,47.603832,-122.330062,98102,Seattle,Klir Technologies,c:58560,0,0,1,0,0,0,2.0,1,closed
+MA,42.36236,-71.099692,2139,Cambridge,MetaCarta,c:7666,0,0,0,0,1,0,7.0,1,acquired
+MA,42.4871509,-71.1986329,1803,Burlington,Viridity Software,c:19670,0,0,1,1,0,0,2.0,1,acquired
+CA,39.78373,-100.445882,94025,Menlo Park,Devtap,c:35148,0,0,0,0,0,0,1.0,0,closed
+CA,37.782103,-122.401116,94108,San Francisco,Bebo,c:142,0,0,1,0,0,0,1.0,1,acquired
+NY,40.745064,-73.992637,10001,New York,SideTour,c:101312,0,1,1,0,0,0,2.0,1,acquired
+CA,37.680766,-122.399971,94005,Brisbane,SARcode Bioscience,c:46168,1,0,0,1,0,0,3.0,1,acquired
+NY,40.730646,-73.986614,10013,New York,Lore,c:78868,0,1,1,0,0,0,4.6667,1,acquired
+WA,47.60706500000001,-122.335373,98101,Seattle,Pelago,c:1236,1,0,1,1,0,0,3.3333,1,acquired
+CA,37.779281,-122.419236,94105,San Francisco,Desk,c:33949,0,0,1,1,0,0,4.0,1,acquired
+CA,39.78373,-100.445882,94025,Menlo Park,Trinity Biosystems,c:35433,1,0,0,1,0,0,4.5,1,closed
+MA,42.579258,-71.437841,1886,Westford,Virtual Computer,c:17774,0,0,1,1,0,0,2.5,1,acquired
+NC,35.780398,-78.639099,27518,Raleigh,Oasys Mobile,c:44064,1,0,0,0,0,0,2.0,0,closed
+CA,37.41924,-122.208414,94025,Menlo Park,Gamook,c:6171,0,0,1,0,0,0,1.0,1,closed
+MA,42.3729,-71.24847199999998,2453,Waltham,Quattro Wireless,c:637,0,0,1,1,1,0,1.6667,1,acquired
+CA,37.441537,-122.158332,94301,Palo Alto,ShopWell,c:30343,1,0,0,1,0,0,2.0,1,acquired
+CA,37.779281,-122.419236,94107,San Francisco,NewsBasis,c:36276,0,1,0,0,0,0,2.0,1,closed
+MA,42.558426,-71.268947,1821,Billerica,Nexx Systems,c:36310,0,0,0,0,1,1,1.5,1,acquired
+NY,40.757929,-73.985506,10003,NY,5min Media,c:835,0,1,1,1,0,0,1.5,1,acquired
+IL,41.875555,-87.624421,60654,Chicago,MyCabbage,c:46863,1,0,1,0,0,0,3.0,1,closed
+MA,42.479262,-71.152277,1801,Woburn,Gotuit,c:179,0,0,1,1,0,0,1.0,1,acquired
+CA,37.288326,-121.945633,95008,Campbell,TeleCIS Wireless,c:16784,0,0,0,0,1,0,1.0,1,acquired
+NY,40.730646,-73.986614,10013,New York,Snapette,c:72750,0,0,0,0,0,0,1.0,0,acquired
+CA,37.779281,-122.419236,94107,San Francisco,EmSense,c:40152,1,0,0,0,1,0,2.0,1,closed
+NY,40.650104,-73.94958199999998,11217,Brooklyn,MakerBot,c:54077,1,0,0,0,0,0,6.0,1,acquired
+NY,42.712207,-73.203599,10003,New York,Image Space Media,c:10452,1,0,1,0,0,0,3.0,1,acquired
+NY,40.650104,-73.94958199999998,11222,Brooklyn,Wanderfly,c:55427,0,1,1,0,0,0,6.0,1,acquired
+IL,41.8969173,-87.6435474,60654,Chicago,walkby,c:195311,1,1,0,0,0,0,1.0,1,closed
+TX,30.268735,-97.745209,78702,Austin,FameCast,c:2497,1,0,1,0,0,0,1.0,1,closed
+CA,37.336191,-121.890583,95110,San Jose,Cassatt,c:13465,0,0,0,0,0,1,3.0,1,acquired
+CA,37.782714,-122.39358,94608,Emeryville,VirtuOz,c:17983,1,0,1,1,0,0,2.0,1,acquired
+CA,37.39873720000001,-122.0497918,95112,San Jose,SolFocus,c:12099,1,0,1,1,1,0,2.7143,1,closed
+CA,37.3965713,-122.0836937,94041,Mountain View,Nimbula,c:51239,0,0,1,1,0,0,2.0,1,acquired
+CA,37.779281,-122.419236,94107,San Francisco,Giftiki,c:74743,0,1,1,0,0,0,2.5,1,acquired
+TX,30.271129,-97.743699,78730,Austin,Storspeed,c:36192,0,0,1,0,0,0,4.0,1,closed
+NY,40.738567,-73.987199,10007,New York,SpaBooker,c:20313,0,1,1,0,0,0,4.0,1,acquired
+CA,37.4233896,-122.08995120000002,94043,Mountain View,Jajah,c:60,0,0,1,1,1,1,1.3333,1,acquired
+CA,37.404788,-121.940842,95134,San Jose,Baxano,c:50092,0,0,0,0,1,0,6.0,1,acquired
+TX,32.959908,-96.70737,75081,Richardson,RipCode,c:1637,0,0,1,1,1,0,4.0,1,closed
+DC,38.894955,-77.03664599999998,20005,Washington,VeteranCentral.com,c:144631,0,1,0,0,0,0,1.0,0,closed
+MA,42.37564,-71.2358,2452,Waltham,RippleFunction,c:56478,0,1,0,0,0,0,1.0,0,closed
+CA,37.54827,-121.988572,94555-3619,Fremont,CV Ingenuity,c:131583,0,0,0,1,0,0,3.0,1,closed
+CA,37.288326,-121.945633,95008,Campbell,AdexLink,c:146596,0,0,0,0,0,0,1.0,0,closed
+MA,42.504817,-71.195611,1803,Burlington,Certeon,c:42163,1,0,0,1,0,0,3.5,1,closed
+CA,37.779281,-122.419236,94104,San Francisco,Applied Identity,c:16111,0,0,1,1,1,0,4.0,1,closed
+GA,33.982966999999995,-84.346041,30350,Atlanta,Prenova,c:24274,1,0,0,0,0,0,1.3333,1,acquired
+CA,37.779281,-122.419236,92606,San Francisco,WooMe,c:763,0,0,1,1,0,0,2.3333,1,acquired
+CA,34.102827000000005,-118.32999,90028,Hollywood,HelpMeRent.com,c:79089,0,1,0,0,0,0,1.0,0,closed
+CA,34.054935,-118.244476,90301,Los Angeles,Mail.com Media Corporation,c:43480,0,0,0,0,0,1,3.0,1,closed
+VA,38.916336,-77.230488,22182,Viena,DubMeNow,c:12224,1,1,0,0,0,0,1.0,0,closed
+TX,30.409765000000004,-97.75101,78759,Austin,Smooth-Stone,c:54488,1,0,0,0,0,0,5.0,1,closed
+CA,37.2690782,-121.9559995,95008,Campbell,ONStor,c:16181,1,0,0,0,0,1,4.6667,1,acquired
+NJ,40.477604,-74.626824,8844,Hillsborough,Relationship Analytics,c:173118,0,1,0,0,0,0,1.0,0,closed
+VA,39.050108,-77.40082,20165,Potomac Falls,Summize,c:1607,0,1,0,0,0,0,2.0,1,acquired
+GA,33.749099,-84.390185,30305,Atlanta,JouleX,c:78759,1,0,0,0,0,0,5.0,1,acquired
+CA,37.54841500000001,-122.315636,94403,San Mateo,Etelos,c:3562,1,1,0,0,0,0,1.0,0,closed
+CA,34.491118,-119.808096,93105,Santa Barbara,Make It Work,c:38655,0,0,1,0,0,0,2.0,1,closed
+TX,30.280148,-97.749908,78701,Austin,MapMyFitness,c:52406,1,0,1,1,1,0,1.75,1,acquired
+CA,37.7776778,-122.3921102,94107,San Francisco,What They Like,c:2178,0,0,1,0,0,0,2.0,0,closed
+AZ,33.426418,-111.9396,85281,Tempe,FetchBack,c:10864,0,0,1,0,0,0,3.0,1,acquired
+MA,42.364367,-71.078978,2142,Cambridge,Sermo,c:934,1,0,1,1,1,0,1.75,1,acquired
+OR,45.3774456,-122.7569561,97062,Tualatin,Wi-Chi,c:23251,0,0,1,0,0,0,1.0,1,closed
+MA,42.3624253,-71.116031,2139,Cambridge,Alnara Pharmaceuticals,c:25600,0,0,1,1,0,0,2.0,1,acquired
+CA,37.78505300000001,-122.287295,60606,Chicago,Braintree,c:46943,0,0,1,1,0,0,3.5,1,acquired
+CA,37.421692,-121.894156,95035-5444,Milpitas,Virident Systems,c:15829,1,0,1,1,1,1,3.0,1,acquired
+CA,37.502169,-122.217727,94063,Redwood City,Pearl Therapeutics,c:25737,0,0,1,0,1,1,3.6667,1,acquired
+CA,37.388869,-122.072353,94041,Mountain View,Lexity,c:28483,0,1,1,0,0,0,4.0,1,acquired
+MA,42.276316,-71.419229,1702,Framingham,Diligent Technologies,c:21040,0,0,0,0,0,1,4.0,1,acquired
+NY,41.019264,-73.683462,10573,Rye Brook,eBillme,c:15458,1,0,0,0,0,0,3.0,1,closed
+WA,47.676378,-122.122155,98052,Redmond,Smilebox,c:1590,0,0,1,1,0,0,3.0,1,acquired
+CA,37.536402,-122.325129,94403,San Mateo,B-hive Networks,c:5988,0,1,1,0,0,0,2.0,1,acquired
+NY,40.650104,-73.94958199999998,11211,Brooklyn,Hot Potato,c:34549,0,0,1,0,0,0,16.0,1,acquired
+WA,47.6257402,-122.3581623,98119,Seattle,Kashless,c:19538,1,0,1,0,0,0,1.0,1,closed
+PA,40.245664,-74.845997,19067,Yardley,Three Screen Games,c:29605,1,0,0,0,0,0,1.0,1,closed
+CA,37.388869,-122.072353,94041,Mountain View,LaunchGram,c:148139,0,1,0,0,0,0,1.0,1,acquired
+CA,33.09568,-117.244034,92009,Carlsbad,BrightQube,c:904,0,1,1,0,0,0,1.0,1,closed
+CA,34.019657,-118.487549,90401,Santa Monica,ServiceMesh,c:64694,1,0,0,0,0,0,1.0,1,acquired
+CA,37.788266,-122.403865,94108,San Francisco,Lookery,c:1923,0,1,1,0,0,0,11.5,1,acquired
+CA,37.779281,-122.419236,94109,San Francisco,Wantful,c:152560,0,0,1,0,0,0,8.0,1,closed
+CA,38.021489,-122.519998,94903,San Rafael,Zep Solar,c:71639,0,0,1,0,0,0,1.0,0,acquired
+CA,34.102827000000005,-118.32999,90028,Hollywood,Help Me Rent Magazine,c:65601,0,1,0,0,0,0,1.0,0,closed
+CA,37.872222,-122.268403,94710,Berkeley,MOG,c:2351,1,1,1,0,0,0,3.0,1,acquired
+CA,34.147645000000004,-118.144478,91105,Pasadena,Loud3r,c:6854,1,0,1,0,0,0,1.0,0,closed
+NY,40.74188770000001,-74.00474659999998,10011,New York,Oyster.com,c:25306,0,0,1,1,1,0,2.25,1,acquired
+CA,37.4155698,-121.9486567,95134,San Jose,LogLogic,c:10915,0,0,0,0,0,1,5.0,1,acquired
+NY,40.728425,-73.999882,10012,New York,StyleTrek,c:70661,0,0,0,0,0,0,6.0,1,closed
+CA,32.988246999999994,-117.080769,92128,San Diego,Sequoia Communications,c:9668,1,0,0,0,1,1,2.0,1,closed
+OR,45.520247,-122.674195,97201,Portland,SnapNames,c:2434,0,0,1,1,0,0,1.0,0,acquired
+CA,37.77522800000001,-122.39963,94107,San Francisco,Simple Star,c:522,0,1,1,0,0,0,1.5,1,acquired
+MA,42.3751,-71.105616,2142,Cambridge,StyleFeeder,c:1165,1,1,1,0,0,0,1.6667,1,acquired
+CA,37.36883,-122.03635,94089,Sunnyvale,FlashSoft,c:80433,0,0,1,0,0,0,2.0,1,acquired
+NY,42.961748,-78.870914,14217,Kenmore,TrustDegrees,c:79456,0,1,0,0,0,0,1.0,0,closed
+CA,33.55327800000001,-117.6779,92677,Laguna Niguel,Symwave,c:17282,1,0,0,0,1,0,2.5,1,acquired
+CA,37.398022,-122.049143,94043,Mountain View,Clearwell Systems,c:3610,0,0,0,1,1,0,2.5,1,acquired
+CA,37.400945,-122.111318,94040-1309,Mountain View,Impeva,c:30667,0,0,0,1,0,0,2.0,0,closed
+CA,32.833501,-117.26162,92037,La Jolla,Nettle,c:59054,0,1,0,0,0,0,3.0,1,closed
+CA,37.487259,-122.232217,94063,Redwood City,CubeTree,c:22721,0,1,1,1,0,0,1.5,1,acquired
+TX,30.2734822,-97.7588828,78703,Austin,Infochimps,c:22168,0,1,1,0,0,0,3.0,1,acquired
+CA,37.787126,-122.39783,94105,San Francisco,Songbird,c:1205,1,0,1,0,0,0,2.0,1,closed
+CA,37.779281,-122.419236,94103,San Francisco,SimpleGeo,c:23139,0,1,1,0,0,0,8.6667,1,acquired
+CA,37.779281,-122.419236,94110,San Francisco,1000memories,c:51379,0,1,1,0,0,0,5.0,1,acquired
+TX,32.958634,-96.823641,75001,Addison,SensorLogic,c:23107,1,0,0,1,1,0,5.3333,1,acquired
+CA,37.388869,-122.072353,94041,Mountain View,TouristEye,c:50162,0,1,0,0,0,0,4.0,0,acquired
+NY,40.730646,-73.986614,10005,New York,Oberon Media,c:15470,1,0,0,1,0,0,1.0,1,acquired
+CA,37.662431,-121.874679,94588,Pleasanton,Arroyo Video Solutions,c:58237,0,0,0,0,1,0,5.0,1,acquired
+CA,39.78373,-100.445882,92130-2042,San Diego,Aragon Pharmaceuticals,c:25001,0,0,1,1,1,1,2.5,1,acquired
+NY,40.730646,-73.986614,10005,New York,#waywire,c:163104,0,0,0,0,0,0,5.0,1,acquired
+NY,40.729839,-73.991781,10003,New York,Feedtrace,c:43263,0,1,0,0,0,0,1.0,0,acquired
+OH,41.505161,-81.693445,44131,Cleveland,Five Star Technologies,c:37173,1,0,0,0,0,0,3.0,1,closed
+IN,39.914281,-86.07647800000002,46250,Indianapolis,Vontoo,c:12179,1,0,0,1,0,0,3.0,0,closed
+MA,42.3751,-71.105616,2142,Cambridge,Allurent,c:42501,1,0,0,0,0,0,1.0,1,acquired
+CA,37.5455355,-122.32088020000002,94608,Emeryville,Quantivo,c:15017,0,0,1,0,0,0,2.0,1,acquired
+CA,37.431091,-122.099263,94043,Mountain View,Crossing Automation,c:17320,0,0,1,1,0,0,2.0,1,acquired
+CA,25.752358,-80.25468000000002,94104,San Francisco,Scrapblog,c:1716,0,0,1,1,1,0,1.25,1,acquired
+CA,37.558245,-122.302654,94402,San Mateo,Yield Software,c:6356,0,0,0,1,0,0,2.0,1,acquired
+PA,40.03935300000001,-76.307448,17603,Lancaster,FlyCast,c:7163,1,1,0,0,0,0,2.0,0,closed
+WA,39.78373,-100.445882,98104,Seattle,Off & Away,c:46835,1,0,1,0,0,0,1.0,1,acquired
+CA,37.3969138,-121.8939054,95131,San Jose,CypherMax,c:18027,1,0,0,1,0,0,3.5,1,closed
+CA,34.185043,-118.878852,91360,Thousand Oaks,Nexsan,c:17634,1,0,1,0,0,0,2.0,1,acquired
+UT,40.233844,-111.658534,84087,Provo,Tipping Bucket,c:47341,0,1,0,0,0,0,1.0,0,closed
+CA,37.416597,-122.154064,94304,Palo Alto,Qlusters,c:42610,0,0,0,0,1,0,5.0,1,closed
+NY,40.775309,-73.98365600000002,10001,New York,Producteev,c:10137,0,1,0,0,0,0,6.0,1,acquired
+NY,40.759089,-73.987573,10036,New York,SpinTheCam,c:47662,0,1,0,0,0,0,1.0,0,closed
+CA,37.229676,-121.971225,95032-5405,Los Gatos,Amalfi Semiconductor,c:29387,1,0,0,1,1,0,3.3333,1,acquired
+OH,39.96226,-83.00070600000002,43207,Columbus,Dormzy,c:58696,0,1,0,0,0,0,1.0,0,closed
+CA,34.144926,-118.149767,91105,Pasadena,iChange,c:13815,0,1,1,0,0,0,2.0,0,acquired
+OR,39.78373,-100.445882,97204,Portland,AppFog,c:55307,0,0,1,1,0,0,4.5,1,acquired
+CA,38.904549,-77.061767,94104,San Francisco,HotPads,c:2033,0,0,1,0,0,0,1.0,0,acquired
+WA,47.682233,-122.135521,98052,Redmond,Sampa,c:444,0,1,0,0,0,0,1.0,0,closed
+CA,37.781557,-122.407959,94103,San Francisco,DanceJam,c:454,0,1,0,1,0,0,5.5,1,closed
+CA,37.571318,-122.267962,94404,Foster City,Right90,c:11531,0,0,1,1,1,0,2.6667,1,acquired
+CA,37.775196,-122.419204,94107,San Francisco,SocialMedia.com,c:741,0,1,1,1,0,0,2.6667,1,acquired
+NY,40.730646,-73.986614,10014,New York,BuyWithMe,c:37826,0,0,1,1,1,0,1.5,1,acquired
+CO,47.601803,-122.332085,80205,Denver,Photobucket,c:7299,1,0,1,1,0,0,2.0,1,acquired
+CA,37.320309,-122.05004,95014,Cupertino,XtremIO,c:35579,0,0,1,1,0,0,2.0,1,acquired
+CA,37.36883,-122.03635,94086,Sunnyvale,Level 5 Networks,c:21654,0,0,0,1,0,0,4.0,1,acquired
+CA,37.388869,-122.072353,94041,Mountain View,Votizen,c:57338,1,0,0,0,0,0,8.5,1,acquired
+CA,34.1086325,-118.0215818,91006,Arcadia,Siimpel Corporation,c:16613,1,0,0,0,1,0,4.25,1,acquired
+CA,37.553743,-122.300246,94402,San Mateo,TalkPlus,c:334,0,0,1,0,0,0,1.0,1,closed
+WA,47.578174,-122.212731,98006,Bellevue,Napera Networks,c:8527,0,0,1,0,0,0,1.0,1,acquired
+CA,39.78373,-100.445882,94063-2026,Redwood City,NebuAd,c:1389,0,0,1,1,0,0,1.5,1,closed
+CA,37.674559,-122.385658,94005,Brisbane,Tercica,c:31614,1,0,0,0,0,0,1.0,0,acquired
+NY,40.737216,-73.99094699999998,10003,New York,Robotgalaxy,c:15709,0,0,1,1,0,0,1.0,0,closed
+CA,37.36883,-122.03635,94085,Sunnyvale,PasswordBank,c:63053,0,1,1,0,0,0,1.0,0,acquired
+CA,37.433414,-122.128772,94306,Palo Alto,SnapTell,c:668,0,0,1,0,0,0,4.0,1,acquired
+CA,33.87751,-117.727046,92887,Yorba Linda,Gigi Hill,c:79149,0,0,1,0,0,0,1.0,1,closed
+CA,37.409618,-122.017792,94089,Sunnyvale,CloudShield Technologies,c:17070,1,0,0,0,0,0,4.5,1,acquired
+NY,40.73901,-73.997259,10011,New York,Instinctiv,c:7329,1,1,0,0,0,0,2.0,1,acquired
+CA,37.2496346,-121.9665932,95008,Campbell,Anchor Bay Technologies,c:26666,1,0,1,0,0,0,3.0,1,acquired
+CA,37.441537,-122.158332,94301,Palo Alto,Waze,c:32475,0,0,1,1,1,0,2.6667,1,acquired
+CA,37.5068854,-122.2475729,94070,San Carlos,Aster Data Systems,c:5585,0,1,1,1,1,0,4.5,1,acquired
+CA,34.050451,-118.437775,90024,Los Angeles,Diversion,c:59298,0,1,0,1,0,0,2.0,1,closed
+CA,37.441537,-122.158332,94301,Palo Alto,Codesion,c:19725,0,1,0,0,0,0,1.0,0,acquired
+CA,37.76179550000001,-122.4092704,94110,San Francisco,Xoopit,c:3770,0,0,1,0,0,0,7.0,1,acquired
+CA,37.79287100000001,-122.400747,941017,San Francisco,One Block Off the Grid (1BOG),c:13127,0,0,1,0,0,0,1.0,1,acquired
+WA,39.78373,-100.445882,98104,Seattle,Appature,c:59187,0,0,1,0,0,0,3.0,1,acquired
+WA,47.631239,-122.16806,98005,Bellevue,Action Engine,c:253,0,0,1,1,1,1,1.4,1,acquired
+MA,42.49739,-71.416794,1720,Acton,Blackwave,c:1350,0,0,1,1,1,0,2.6667,1,acquired
+TX,33.017317,-96.837682,75244,Dallas,SoftLayer,c:26240,1,0,0,0,0,0,1.0,0,acquired
+CA,34.007967,-118.489681,94301,Palo Alto,Mytopia,c:3487,0,1,1,0,0,0,2.0,0,acquired
+MA,42.337037,-71.25174799999998,2466,Newton,JackPot Rewards,c:2478,0,0,1,0,0,0,4.0,0,closed
+AZ,33.414414,-111.909447,85284,Tempe,Andigilog,c:42062,0,0,0,1,0,0,7.0,1,closed
+CA,37.36883,-122.03635,94085,Sunnyvale,BARRX Medical,c:51890,0,0,0,0,0,1,6.0,1,acquired
+CA,37.3767076,-121.997483,95051,Santa Clara,Power Analog Microelectronics,c:17481,0,0,1,1,0,0,4.0,1,closed
+OH,41.678675,-83.51272800000002,43607,Toledo,Classiphix,c:148284,0,1,0,0,0,0,1.0,0,closed
+WA,47.603832,-122.330062,98101,Seattle,StartupDigest,c:38095,1,0,0,0,0,0,1.0,0,acquired
+CA,33.158093,-117.350597,92008,Carlsbad,WiLinx,c:42227,0,0,0,0,1,0,1.0,0,closed
+CA,37.779281,-122.419236,94111,San Francisco,Cohuman,c:41006,0,1,0,0,0,0,3.0,0,acquired
+NY,40.707645,-74.010816,10038,New York,Correlix,c:27938,1,0,0,1,0,0,3.0,1,closed
+CA,37.4815098,-121.9453283,94538,Fremont,Redwood Systems,c:28482,1,0,1,1,1,0,2.25,1,acquired
+TX,30.269004,-97.740395,78701,Austin,OtherInbox,c:5801,0,1,1,0,0,0,4.75,1,acquired
+CA,37.555962,-122.288006,94404,San Mateo,M-Factor,c:17738,1,0,0,0,1,0,3.0,1,acquired
+CA,37.354469,-121.990433,95051,Santa Clara,Athena Design Systems,c:45112,0,0,0,1,0,0,6.0,1,closed
+CA,37.552262,-122.292146,94403,San Mateo,Servo Software,c:22726,0,0,0,1,0,0,1.0,1,acquired
+CA,37.551882,-122.313472,94402,San Mateo,Levanta,c:43458,1,0,0,0,0,0,3.0,1,closed
+CA,37.566009,-122.321646,94401,San Mateo,EdgeSpring,c:195233,0,0,1,0,0,0,1.5,1,acquired
+CA,33.831671,-118.315766,90501,Torrance,DotSpots,c:6219,0,1,0,0,0,0,2.0,0,closed
+CA,37.755068,-122.418026,94110,San Francisco,about.me,c:38337,1,0,0,0,0,0,4.0,1,acquired
+CA,33.615663399999995,-111.8931647,90291,Santa Monica,Republic Project,c:20672,0,1,0,0,0,0,5.0,1,acquired
+FL,28.66677,-81.392794,32714,Altamonte Springs,Hit Systems,c:14483,0,1,0,0,0,0,1.0,0,closed
+CT,39.364504,-84.247556,6880,Westport,Yamisee,c:44616,0,1,0,0,0,0,2.5,0,closed
+WA,47.603832,-122.330062,98109,Seattle,Thinkfuse,c:60580,0,1,0,0,0,0,5.0,1,acquired
+CA,37.445326,-122.160671,94301,Palo Alto,EchoSign,c:1111,0,0,1,1,0,0,1.0,1,acquired
+WA,47.602416,-122.332614,98104,Seattle,PI Corporation,c:2955,0,0,0,1,0,0,1.0,1,acquired
+RI,41.818712,-71.411775,2903,Providence,"MoveableCode, Inc.",c:148566,0,1,0,0,0,0,1.0,1,closed
+NY,40.643438,-73.886452,10013,New York,Daylife,c:703,0,0,0,1,1,0,1.5,1,acquired
+MA,42.599814,-71.367284,1824,Chelmsford,Desktone,c:38721,1,0,1,1,0,0,3.0,1,acquired
+CA,37.779281,-122.419236,94105,San Francisco,Pulse,c:79431,0,1,1,0,0,0,4.5,1,acquired
+CA,37.779281,-122.419236,94107,San Francisco,Opzi,c:50449,0,1,0,0,0,0,5.0,1,closed
+CO,40.011355,-105.274166,80302,Boulder,Standing Cloud,c:61783,1,0,1,1,0,0,1.5,1,acquired
+IL,41.916619,-87.686634,60647,Chicago,Where I've Been,c:10199,1,1,0,0,0,0,1.0,1,acquired
+CA,37.779281,-122.419236,94103,San Francisco,HipChat,c:37304,0,1,0,0,0,0,3.0,1,acquired
+CA,37.441537,-122.158332,94301,Palo Alto,ScaleIO,c:179507,1,0,0,0,0,0,2.0,1,acquired
+NY,40.730646,-73.986614,10010,New York,GroupMe,c:55122,0,1,0,1,0,0,8.5,1,acquired
+CA,37.7611016,-122.4160008,94110,San Francisco,WeAre.Us,c:11498,0,1,0,0,0,0,3.0,0,closed
+CA,37.381876,-121.95993,95054,Santa Clara,Kickfire,c:16134,0,0,0,1,0,0,4.0,1,closed
+TX,30.265927,-97.783642,78746,Austin,"LifeSize, a Division of Logitech",c:35511,0,0,0,0,1,1,5.5,1,acquired
+CA,33.916552,-118.397491,CA 90245,"El Segundo,",CHiL Semiconductor,c:30152,1,0,0,1,1,0,2.3333,1,acquired
+CA,37.5568425,-122.2884881,94404,San Mateo,Aptana,c:27339,1,0,0,0,0,0,2.0,1,acquired
+NJ,40.707045,-74.95600300000002,8827,Hampton,Enpirion,c:25510,0,0,0,1,1,0,6.0,1,acquired
+ID,43.493525,-112.040092,83402,Idaho Falls,RFinity,c:33519,0,0,1,0,0,0,1.0,1,closed
+CA,32.901049,-117.192656,92121,San Diego,ecoATM,c:42223,1,0,1,0,0,0,2.6667,1,acquired
+CA,37.779281,-122.419236,94103,San Francisco,Adura Technologies,c:42497,0,0,1,1,0,0,2.6667,1,acquired
+CA,39.78373,-100.445882,94040-2573,Mountain View,Rhythm NewMedia,c:15123,1,0,0,0,1,0,2.6667,1,acquired
+CA,37.775196,-122.419204,94105,San Francisco,Topsy Labs,c:23588,1,0,1,1,1,0,2.3333,1,acquired
+MA,42.504817,-71.195611,1803,Burlington,Digit Wireless,c:38273,1,0,0,0,1,0,2.5,1,closed
+CA,37.428087700000006,-122.143368,94025,Menlo Park,Silver Tail Systems,c:15018,1,0,1,1,0,0,2.6667,1,acquired
+MA,42.485093,-71.43284,1720,Acton,Tatara Systems,c:37335,1,0,0,1,1,1,2.0,1,acquired
+CA,37.400115,-122.052208,94303,Mountain View,Reliant Technologies,c:31559,0,0,0,0,0,0,3.0,1,acquired
+CA,37.2624049,-121.95770520000002,95008,Campbell,Atrua Technologies,c:9665,0,0,0,0,0,1,3.0,1,acquired
+CA,37.293687,-121.934573,95008,Campbell,Casabi,c:18163,0,0,1,1,0,0,2.5,1,acquired
+NY,40.73901,-73.997259,10011,New York,Peek & Co,c:14345,1,0,1,0,0,0,1.0,1,closed
+MA,42.3751,-71.105616,2139,Cambridge,Bluefin Labs,c:33416,0,1,1,1,0,0,3.75,1,acquired
+CA,37.404788,-121.940842,95134,San Jose,C2 Microsystems,c:40147,1,0,0,0,0,0,3.0,1,closed
+CA,37.4210225,-122.1377411,94301,Palo Alto,GoPollGo,c:62269,0,1,0,0,0,0,2.0,1,acquired
+CA,35.966068,-115.118671,95066,Scotts Valley,Multigig,c:16273,1,0,0,1,1,0,3.0,1,acquired
+CA,32.833501,-117.26162,92037,La Jolla,Ortiva Wireless,c:38196,1,0,1,1,1,0,4.0,1,acquired
+CA,34.048857,-118.251343,90245,El Segundo,Sometrics,c:5411,0,0,1,1,0,0,3.0,1,acquired
+CA,37.78699829999999,-122.400893,94107,San Francisco,Kima Labs,c:54465,0,1,0,0,0,0,6.0,1,acquired
+TX,32.960431,-96.83026,75001,Addison,Chronicity,c:34267,1,0,1,0,0,0,1.0,1,closed
+CA,40.730646,-73.986614,94111,San Francisco,Whiskey Media,c:1042,1,0,0,0,0,0,1.0,0,acquired
+VA,38.92719,-77.21696899999998,22102,McLean,Jobfox,c:1756,0,0,1,1,1,0,2.3333,1,acquired
+CO,39.6350086,-106.5213459,81620,Avon,Natural Cleaners Colorado,c:31452,0,0,1,0,0,0,1.0,1,closed
+CA,33.570171,-117.710676,92656,Aliso Viejo,Gaikai,c:39101,0,0,1,1,1,0,3.6667,1,acquired
+CA,37.779281,-122.419236,94110,San Francisco,Blue Buzz Network,c:60186,1,0,0,0,0,0,4.0,1,closed
+OR,45.520247,-122.674195,97224,Portland,Max-Viz,c:74341,0,0,1,0,0,0,3.0,0,acquired
+CA,37.504764,-122.259568,94085,Sunnyvale,Cotendo,c:3950,0,0,1,1,1,1,3.0,1,acquired
+CA,37.445586,-122.161929,94301-1705,Palo Alto,Particle Code,c:60457,1,0,0,0,0,0,1.0,0,acquired
+CA,37.7710177,-122.4025976,94103,San Francisco,Flowgram,c:7748,0,1,0,0,0,0,8.0,1,closed
+AR,34.748528,-92.287158,72201,Little Rock,JavaJobs,c:35903,1,0,0,0,0,0,1.0,0,closed
+NY,40.74406,-74.004592,10012,New York,Behance,c:714,0,0,1,0,0,0,8.0,1,acquired
+MA,42.3751,-71.105616,2142,Cambridge,Locu,c:90087,0,1,1,0,0,0,9.0,1,acquired
+MA,42.391389,-71.270987,2451,Waltham,dynaTrace software,c:9373,1,0,1,1,0,0,1.6667,1,acquired
+NY,40.730646,-73.986614,10010,New York,Socialbomb,c:16343,0,1,0,0,0,0,2.0,1,acquired
+CA,32.9388917,-117.2398594,92130,San Diego,Imagine Communications,c:13734,1,0,1,1,0,0,2.25,1,acquired
+IL,41.808458,-88.073008,60188,Lisle,Univa UD,c:4060,1,0,1,1,1,0,5.3333,1,acquired
+NY,40.7908157,-73.9722939,10013,New York,Tutorspree,c:58420,1,1,0,0,0,0,5.0,1,closed
+CO,40.01621,-105.28131,80302,Boulder,OneRiot,c:815,0,0,1,1,1,0,3.0,1,acquired
+CA,37.440682,-122.123103,94303,Palo Alto,Moonshoot,c:42112,1,0,0,0,0,0,1.5,1,closed
+CA,37.31679000000001,-122.05079,95014,Cupertino,ArcSight,c:16178,0,0,1,1,1,0,6.0,1,acquired
+CA,37.354469,-121.990433,95051,Santa Clara,AGEIA Technologies,c:27021,0,0,0,0,1,0,7.0,1,acquired
+TX,29.758938,-95.367697,77046,Houston,U.S. Fiduciary,c:43133,0,0,0,0,0,1,2.0,1,closed
+CA,37.336191,-121.890583,95110,San Jose,Broadway Networks,c:25756,1,0,0,0,0,0,1.0,0,closed
+CA,59.3352318,18.0571206,95054,Santa Clara,Xelerated,c:17884,0,0,0,0,1,1,4.6667,1,acquired
+CA,37.563585,-122.324621,94410,San Mateo,Oodle,c:208,1,0,1,1,1,0,2.0,1,acquired
+CA,37.782809,-122.394354,94103,San Francisco,The Climate Corporation,c:1078,0,0,1,1,1,0,7.5,1,acquired
+CA,37.3867729,-122.07522240000002,94041,Mountain View,Kosmix,c:1600,0,0,1,1,1,1,2.75,1,acquired
+NY,40.729839,-73.991781,10003,New York,Xtify Inc.,c:12071,0,0,1,0,0,0,2.0,0,acquired
+CA,37.658713,-122.399382,94080,South San Francisco,Limerick BioPharma,c:24681,1,0,1,0,1,0,3.0,1,closed
+CA,37.780134,-122.396744,94107,San Francisco,iSkoot,c:96,0,0,1,1,1,0,4.0,1,acquired
+TX,29.739322,-95.444747,77027,Houston,Rudder,c:15509,0,0,1,0,0,0,1.0,0,closed
+NY,40.750519,-73.993494,10001,New York,Panvidea,c:52378,0,0,1,0,0,0,2.0,1,acquired
+WI,43.090756,-89.522805,53562,Middleton,Sway,c:167,0,0,1,0,0,0,2.0,0,closed
+NY,40.7429533,-73.98446109999998,10018,New York,TRAFFIQ,c:17758,1,0,1,1,0,0,2.3333,1,acquired
+WA,47.802184,-122.196307,98021,Bothell,Dexterra,c:8339,1,0,0,0,1,1,5.6,1,acquired
+CA,37.7405936,-122.3764714,94107,San Francisco,CoTweet,c:21343,0,0,1,0,0,0,6.0,1,acquired
+MA,42.504817,-71.195611,1803,Burlington,Reef Point Systems,c:41747,1,0,0,1,0,0,2.6667,1,closed
+CA,37.408261,-122.01592,94089,Sunnyvale,Paracor Medical,c:31549,0,0,0,0,0,1,8.0,1,closed
+CA,37.556732,-122.288378,94404,San Francisco,Causata,c:33198,0,0,1,1,0,0,1.0,1,acquired
+CA,37.386778,-121.966277,95054,Santa Clara,Asempra Technologies,c:26702,0,0,0,1,0,0,3.0,1,acquired
