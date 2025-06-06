@@ -1,0 +1,271 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="hero-section text-center p-5 mb-5">
+        <h1 class="display-4 fw-bold mb-3">Elevate Your Business</h1>
+        <p class="lead col-lg-8 mx-auto text-muted">Leverage cutting-edge AI to analyze markets, refine strategies, and drive growth. Our expert AI consultants are here to guide you every step of the way.</p>
+        <a href="#services" class="btn btn-primary btn-lg mt-3">Explore Services</a>
+    </div>
+
+    <div class="container text-center mb-5">
+        <h2 class="mb-4">Featured Visuals</h2>
+        <div id="threed-container" class="mx-auto border rounded shadow-sm"></div>
+    </div>
+
+    <div id="services" class="container mb-5">
+        <h2 class="text-center mb-4">Our Core Consulting Services</h2>
+        <div class="row g-4">
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100 service-card" data-service="market_strategy" data-service-name="Market & Growth Strategy" data-ai-greeting="I'm ready to help you formulate a winning market strategy. What are your primary goals or challenges?">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Market & Growth Strategy</h5>
+                        <p class="card-text text-muted flex-grow-1">Develop robust market entry plans, identify growth opportunities, and refine your competitive positioning.</p>
+                        <a href="#aiChatSection" class="btn btn-outline-primary mt-auto consult-button">Consult AI</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100 service-card" data-service="operational_efficiency" data-service-name="Operational Efficiency" data-ai-greeting="Let's optimize your operations! Tell me about your current processes or bottlenecks.">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Operational Efficiency</h5>
+                        <p class="card-text text-muted flex-grow-1">Streamline processes, reduce costs, and enhance productivity by leveraging AI insights for operational excellence.</p>
+                        <a href="#aiChatSection" class="btn btn-outline-primary mt-auto consult-button">Consult AI</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100 service-card" data-service="digital_transformation" data-service-name="Digital Transformation" data-ai-greeting="Embarking on a digital transformation? Let's discuss your vision and how AI can accelerate it.">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Digital Transformation</h5>
+                        <p class="card-text text-muted flex-grow-1">Navigate the complexities of digital change and implement data-driven solutions to future-proof your business.</p>
+                        <a href="#aiChatSection" class="btn btn-outline-primary mt-auto consult-button">Consult AI</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100 service-card" data-service="startup_advisory" data-service-name="Startup Advisory" data-ai-greeting="Launching a startup? I can help with business plans, funding strategies, and early-stage growth. What's on your mind?">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Startup Advisory</h5>
+                        <p class="card-text text-muted flex-grow-1">Get tailored advice for your startup journey, from ideation and business planning to securing funding and scaling.</p>
+                        <a href="#aiChatSection" class="btn btn-outline-primary mt-auto consult-button">Consult AI</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mb-5" id="aiChatSection" style="display: none;">
+        <div class="card ai-chat-section shadow-lg">
+            <div class="card-header text-center">
+                <h3 class="mb-0">AI Consulting Session</h3>
+                <p class="mb-0 text-muted" id="serviceContextDisplay">Select a service above to begin.</p>
+            </div>
+            <div class="card-body">
+                <div id="chat-history" class="mb-3 p-3 border rounded">
+                    </div>
+                <div id="input-area" class="d-flex gap-2">
+                    <textarea id="promptInput" class="form-control" rows="1" placeholder="Please log in to use the AI consultant..."></textarea>
+                    <button class="btn btn-primary" onclick="sendChatMessage()" title="Send Message">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}
+
+
+{% block scripts %}
+    <script>
+        // --- Variable Definitions ---
+        const chatHistoryDiv = document.getElementById("chat-history");
+        const promptTextarea = document.getElementById("promptInput");
+        const greetingElement = document.getElementById("greeting");
+        const aiChatSection = document.getElementById("aiChatSection");
+        const serviceContextDisplay = document.getElementById("serviceContextDisplay");
+        const serviceCards = document.querySelectorAll(".service-card");
+        const flaskServerBaseUrl = "http://127.0.0.1:5000";
+        let currentServiceContext = null;
+        const isAuthenticated = {{ current_user.is_authenticated|tojson }};
+
+        // --- Initial Setup ---
+        if (!isAuthenticated) {
+            promptTextarea.placeholder = "Please log in to use the AI consultant...";
+            promptTextarea.disabled = true;
+        }
+
+        // --- Event Listeners ---
+        serviceCards.forEach(card => {
+            card.addEventListener('click', (event) => {
+                event.preventDefault();
+                if (!isAuthenticated) {
+                    window.location.href = "{{ url_for('auth_bp.login') }}";
+                    return;
+                }
+                const serviceCard = event.currentTarget;
+                currentServiceContext = serviceCard.dataset.service;
+                const serviceName = serviceCard.dataset.serviceName || "AI Advisor";
+                const aiGreeting = serviceCard.dataset.aiGreeting || "How can I help?";
+                
+                serviceContextDisplay.textContent = `Consulting on: ${serviceName}`;
+                aiChatSection.style.display = 'block';
+                chatHistoryDiv.innerHTML = '';
+                appendMessage(aiGreeting, "ai");
+                promptTextarea.placeholder = `Ask about ${serviceName}...`;
+                aiChatSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            });
+        });
+
+        promptTextarea.addEventListener("input", () => {
+            promptTextarea.style.height = 'auto';
+            promptTextarea.style.height = promptTextarea.scrollHeight + 'px';
+        });
+
+        promptTextarea.addEventListener("keypress", (event) => {
+            if (event.key === "Enter" && !event.shiftKey) {
+                event.preventDefault();
+                sendChatMessage();
+            }
+        });
+
+        // --- Core Functions ---
+        function appendMessage(text, senderType) {
+            const messageDiv = document.createElement("div");
+            messageDiv.classList.add("message", "p-2", "rounded", "mb-2");
+            if(senderType === 'user') {
+                messageDiv.classList.add('user-message', 'bg-primary', 'text-white', 'ms-auto');
+            } else {
+                messageDiv.classList.add('ai-message', 'bg-body-secondary');
+            }
+            const p = document.createElement("p");
+            p.classList.add('m-0');
+            p.innerHTML = text; // Your original code used innerHTML, keeping it for markdown
+            messageDiv.appendChild(p);
+            chatHistoryDiv.appendChild(messageDiv);
+            chatHistoryDiv.scrollTop = chatHistoryDiv.scrollHeight;
+            return messageDiv;
+        }
+
+        async function sendChatMessage() {
+            if (!isAuthenticated) {
+                appendMessage("<em>You must be logged in to chat.</em>", "ai");
+                return;
+            }
+            const promptText = promptTextarea.value.trim();
+            if (!promptText || !currentServiceContext) { return; }
+            
+            appendMessage(promptText, 'user');
+            promptTextarea.value = '';
+            promptTextarea.style.height = 'auto';
+
+            const aiMessageDiv = appendMessage("<em>AI is typing...</em>", "ai");
+
+            try {
+                const response = await fetch(`${flaskServerBaseUrl}/api/ask`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ prompt: promptText, service_context: currentServiceContext }),
+                });
+
+                if (response.status === 401) {
+                    aiMessageDiv.querySelector("p").innerHTML = "Your session has expired. Please <a href='{{ url_for('auth_bp.login') }}'>log in</a> again.";
+                    return;
+                }
+                if (!response.ok) { throw new Error(`Server error: ${response.status}`); }
+
+                aiMessageDiv.querySelector("p").innerHTML = "";
+                const reader = response.body.getReader();
+                const decoder = new TextDecoder();
+                while(true) {
+                    const { done, value } = await reader.read();
+                    if (done) break;
+                    const chunk = decoder.decode(value, { stream: true });
+                    const lines = chunk.split('\n\n');
+                    for (const line of lines) {
+                        if (line.startsWith("data: ")) {
+                            const jsonData = line.substring("data: ".length);
+                            if (jsonData.trim()) {
+                                const parsed = JSON.parse(jsonData);
+                                if (parsed.delta) {
+                                     aiMessageDiv.querySelector("p").innerHTML += parsed.delta; // Simplified for clarity
+                                }
+                            }
+                        }
+                    }
+                }
+            } catch (error) {
+                aiMessageDiv.querySelector("p").innerHTML = `<em>Error: ${error.message}</em>`;
+            }
+        }
+
+        // --- VISUALS SCRIPT (RESTORED) ---
+        function initThreeJSModel(modelInfoArray) { 
+            const container = document.getElementById('threed-container');
+            if (!container || typeof THREE === 'undefined' || typeof THREE.GLTFLoader === 'undefined') { 
+                console.error("Three.js container or library not found.");
+                if(container) container.innerHTML = '<p>3D Viewer not available.</p>';
+                return;
+            }
+            while (container.firstChild) { container.removeChild(container.firstChild); }
+
+            const scene = new THREE.Scene();
+            const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true }); 
+            renderer.setSize(container.clientWidth, container.clientHeight);
+            renderer.setPixelRatio(window.devicePixelRatio);
+            container.appendChild(renderer.domElement);
+            renderer.setClearColor(0x000000, 0); 
+
+            const camera = new THREE.PerspectiveCamera(50, container.clientWidth / container.clientHeight, 0.1, 1000);
+            camera.position.set(0, 0.5, 4);
+
+            scene.add(new THREE.AmbientLight(0xffffff, 1.2));
+            const light1 = new THREE.DirectionalLight(0xffffff, 1.0); 
+            light1.position.set(5, 10, 7.5);
+            scene.add(light1);
+            
+            const loader = new THREE.GLTFLoader();
+            const modelsGroup = new THREE.Group(); 
+            scene.add(modelsGroup);
+
+            modelInfoArray.forEach((modelInfo) => {
+                if (!modelInfo || !modelInfo.filename) return;
+                loader.load(`/static/assets/3d/${modelInfo.filename}`, (gltf) => {
+                    const model = gltf.scene;
+                    const box = new THREE.Box3().setFromObject(model);
+                    const size = box.getSize(new THREE.Vector3());
+                    const maxDim = Math.max(size.x, size.y, size.z);
+                    const scale = (maxDim > 0) ? (2.0 / maxDim) : 1.0;
+                    model.scale.set(scale, scale, scale);
+                    
+                    const scaledBox = new THREE.Box3().setFromObject(model); 
+                    const center = scaledBox.getCenter(new THREE.Vector3());
+                    model.position.sub(center);
+                    model.position.x = modelInfo.x_offset || 0;
+                    
+                    modelsGroup.add(model);
+                });
+            });
+
+            function animate() {
+                requestAnimationFrame(animate);
+                modelsGroup.rotation.y += 0.005; 
+                renderer.render(scene, camera);
+            }
+            animate();
+        } 
+
+        // --- DOMContentLoaded ---
+        document.addEventListener('DOMContentLoaded', () => {
+            // Your original greeting fetch logic
+            fetch(`${flaskServerBaseUrl}/api/hello`) 
+                .then(r => r.ok ? r.json() : Promise.reject(r))
+                .then(d => { if (greetingElement) greetingElement.textContent = `Status: ${d.msg || 'Connected'}`; })
+                .catch(e => { if (greetingElement) greetingElement.textContent = "Status: API connection error."; });
+            
+            // Your original call to initialize the 3D models
+            const modelsToDisplay = [
+                { filename: 'laptop_model.glb', x_offset: -1.0 },
+                { filename: 'businessman_model.glb', x_offset: 1.0 }
+            ];
+            initThreeJSModel(modelsToDisplay);
+        });
+    </script>
+{% endblock scripts %}

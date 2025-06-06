@@ -1,0 +1,142 @@
+/* --- Modern Business Theme --- */
+
+/* 1. NEW: Professional Color Palette & Typography */
+:root {
+    --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    
+    /* Light Mode Palette */
+    --primary-color-light: #0d6efd; /* A more vibrant Bootstrap blue */
+    --secondary-color-light: #6c757d; /* Standard muted gray */
+    --bg-color-light: #f8f9fa;      /* Off-white background */
+    --surface-color-light: #ffffff;  /* Pure white for cards/surfaces */
+    --text-color-light: #212529;    /* Dark gray for text */
+    --border-color-light: #dee2e6;   /* Light gray for borders */
+    --accent-color-light: #ffc107;   /* A subtle gold/yellow accent */
+
+    /* Dark Mode Palette */
+    --primary-color-dark: #0d6efd;
+    --secondary-color-dark: #adb5bd;
+    --bg-color-dark: #121212;      /* Near-black background */
+    --surface-color-dark: #1e1e1e;  /* Dark surface for cards */
+    --text-color-dark: #e9ecef;    /* Light gray for text */
+    --border-color-dark: #495057;   /* Darker border */
+    --accent-color-dark: #ffc107;
+}
+
+/* 2. Apply Theme Variables based on Bootstrap's theme attribute */
+body {
+    --primary-color: var(--primary-color-light);
+    --secondary-color: var(--secondary-color-light);
+    --bg-color: var(--bg-color-light);
+    --surface-color: var(--surface-color-light);
+    --text-color: var(--text-color-light);
+    --border-color: var(--border-color-light);
+    --accent-color: var(--accent-color-light);
+}
+
+[data-bs-theme="dark"] body {
+    --primary-color: var(--primary-color-dark);
+    --secondary-color: var(--secondary-color-dark);
+    --bg-color: var(--bg-color-dark);
+    --surface-color: var(--surface-color-dark);
+    --text-color: var(--text-color-dark);
+    --border-color: var(--border-color-dark);
+    --accent-color: var(--accent-color-dark);
+}
+
+/* 3. General Body & Layout Styling */
+body {
+    font-family: var(--font-sans);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+}
+
+/* 4. Modernized Components */
+
+/* Navbar */
+.navbar {
+    background-color: var(--surface-color) !important;
+    border-color: var(--border-color) !important;
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: var(--surface-color);
+    border-radius: .75rem;
+    border: 1px solid var(--border-color);
+}
+.hero-section h1 {
+    color: var(--primary-color);
+}
+
+/* Service Cards */
+.service-card {
+    background-color: var(--surface-color);
+    border: 1px solid var(--border-color);
+    border-radius: .75rem;
+    transition: transform .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+[data-bs-theme="dark"] .service-card:hover {
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.25);
+}
+.service-card .card-title {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+/* AI Chat Section */
+.ai-chat-section .card {
+    background-color: var(--surface-color);
+    border-color: var(--border-color);
+}
+#chat-history {
+    height: 450px;
+    background-color: var(--bg-color);
+    border-radius: .5rem;
+    padding: 1rem;
+    overflow-y: auto;
+}
+.message {
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+    max-width: 80%;
+    line-height: 1.5;
+}
+.user-message {
+    background-color: var(--primary-color);
+    color: white;
+    margin-left: auto;
+    border-bottom-right-radius: .25rem;
+}
+.ai-message {
+    background-color: var(--surface-color);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+    margin-right: auto;
+    border-bottom-left-radius: .25rem;
+}
+
+/* Footer */
+.main-footer {
+    background-color: transparent; /* Make it blend with the body background */
+    color: var(--secondary-color);
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+}
+
+/* 3D Container */
+#threed-container {
+    height: 350px;
+    border-color: var(--border-color);
+    background-image: none !important; /* Remove background image to rely on 3D model */
+    background-color: var(--surface-color);
+}
